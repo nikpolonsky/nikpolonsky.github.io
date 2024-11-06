@@ -40,6 +40,7 @@ comments: false
 # Build settings
 theme: jekyll-whiteglass
 plugins:
+  - jekyll-polyglot
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
@@ -94,3 +95,9 @@ jekyll-archives:
 # jekyll-paginate
 paginate_path: /posts/:num/
 paginate: 5
+
+#Polyglot
+languages: ["en", "ua", "ru"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: false
