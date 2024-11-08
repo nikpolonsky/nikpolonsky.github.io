@@ -1,8 +1,0 @@
-<nav class="language-menu">
-    {% for lang in site.polyglot.languages %}
-        {% assign lang_path = site.url | append: site.baseurl | append: '/' | append: lang %}
-        <a href="{{ lang_path }}" class="language-link {% if page.lang == lang %}active{% endif %}">
-            {{ lang | upcase }}
-        </a>
-    {% endfor %}
-</nav>
