@@ -99,5 +99,7 @@ paginate: 5
 #Polyglot
 languages: ["en", "ua", "ru"]
 default_lang: "en"
+enabled: true
+translate_urls: true
 exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: false
+parallel_localization: true
