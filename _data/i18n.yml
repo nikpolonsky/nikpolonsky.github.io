@@ -14,11 +14,6 @@ en:
   archive-category: "Archive of category '%1'"
   archive-tag: "Archive of tag '%1'"
   comments: "Comments"
-  title: "My eng title"
-ua:
-  title: "Мій заголовок"
-ru:
-  title: "Ру звіва"
 de:
   date:
     format: "%e. %B %Y"
