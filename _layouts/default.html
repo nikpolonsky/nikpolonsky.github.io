@@ -8,7 +8,7 @@
     {% include header.html %}
 
       <!-- Language Selection Menu -->
-      <div class="site-nav">
+      <div class="wrapper" style="text-align: right;">
         {% for tongue in site.languages %}
         <a 
         {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} 
