@@ -7,9 +7,15 @@
 
     {% include header.html %}
 
-    <nav class="language-menu">
-      <a href="#">Language Menu Test</a>
-    </nav>
+     <!-- Language Selection Menu -->
+        <nav class="language-menu">
+          {% for lang in site.polyglot.languages %}
+              {% assign lang_path = site.baseurl | append: '/' | append: lang %}
+              <a href="{{ lang_path }}" class="language-link {% if page.lang == lang %}active{% endif %}">
+                  {{ lang | upcase }}
+              </a>
+          {% endfor %}
+        </nav>
     
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
