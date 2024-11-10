@@ -85,3 +85,9 @@ enabled: true
 translate_urls: true
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
+
+#Data
+human_design_title:
+  en: "Human Design"
+  ua: "Дизайн людини"
+  ru: "Дизайн человека"
