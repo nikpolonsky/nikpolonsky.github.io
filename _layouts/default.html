@@ -8,14 +8,10 @@
     {% include header.html %}
 
      <!-- Language Selection Menu -->
-        <nav class="language-menu">
-          {% for lang in site.polyglot.languages %}
-              {% assign lang_path = site.baseurl | append: '/' | append: lang %}
-              <a href="{{ lang_path }}" class="language-link {% if page.lang == lang %}active{% endif %}">
-                  {{ lang | upcase }}
-              </a>
-          {% endfor %}
-        </nav>
+        <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+  {% for tongue in site.languages %}
+<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+  {% endfor %}
     
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
