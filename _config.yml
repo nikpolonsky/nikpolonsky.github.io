@@ -18,7 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Human Design
+title: 
+  en: Human Design
+  ua: Дизайн людини
+  ru: Дизайн человека
+  
 author: Nik Polonsky
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
