@@ -5,6 +5,8 @@
 #    url: /about/
 #  - title: "Archives"
 #    url: /archives/
+
+main:
 en:
   - title: "About"
     url: /about/
