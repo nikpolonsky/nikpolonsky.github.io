@@ -5,7 +5,7 @@
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.human_design_title[site.active_lang] | escape }}</a>
 
     <nav class="site-nav">
-      {% for link in site.data.navigation.main[site.active_lang] %}
+      {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
           {% assign url = link.url %}
         {% else %}
