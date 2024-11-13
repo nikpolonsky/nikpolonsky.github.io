@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.human_design_title[site.active_lang] | escape }}</a>
-
+    <p>На понятном языке</p> 
     <nav class="site-nav">
       {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
