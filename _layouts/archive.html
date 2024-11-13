@@ -32,6 +32,10 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}</a>
           {% endif %}
         </h2>
+         <!-- Add this block to display the image -->
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 200px;">
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

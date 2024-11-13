@@ -4,6 +4,7 @@ title:  "My Experience in Experimentation"
 date:   2020-04-24 15:10:56 +0100
 lang: en
 categories: jekyll update
+image: "/assets/images/tmp2.jpg"
 ---
 
 Let’s go back to early September 2019, when I moved to Berlin. I had never aspired to live abroad, but Ksusha, whom I married six months prior (February 2019), was already living there. We had gotten married at the end of a journey across South America, in Argentina. Before that, I lived in Kyiv, and Ksusha in Berlin, maintaining a long-distance relationship for a year. There were no low-cost flights at the time, so I became quite an expert in crossing Poland—I even once “beat” a plane from Rzeszów to Berlin by hitchhiking. Long-distance relationships aren’t so scary; there’s a lot of intensity and space for yourself, but it’s important to know it won’t last forever. For us, the “light at the end of the tunnel” was a set date when we would leave, with no return ticket, and start traveling through South America with backpacks. But even then, the question of “where to live next” was already looming.
