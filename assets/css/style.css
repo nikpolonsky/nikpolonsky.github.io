@@ -1,0 +1,17 @@
+.post-preview {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.post-preview-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px; /* Optional: to add rounded corners */
+    float: left; /* Ensure the text wraps around */
+}
+
+.post-preview-content {
+    flex: 1;
+}
