@@ -4,18 +4,17 @@
   margin-bottom: 2em;
 }
 
+/* Thumbnail container style */
 .post-thumbnail {
-  float: left; /* Make the image float to the left */
-  margin-right: 20px; /* Add space between the image and the text */
-  max-width: 150px; /* Limit the image width */
-  max-height: 100px; /* Optionally limit the image height */
+  display: inline-block;
+  width: 150px; /* Set a specific width for the container */
+  height: auto;
+  margin-right: 15px; /* Optional, to add some space around the image */
 }
 
 .post-thumbnail img {
-  width: 100%; /* Make the image take the full width of the container */
-  max-width: 120px;
+  width: 100%; /* Make the image fill the container */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Optional: add rounded corners */
 }
 
 .post-content {
