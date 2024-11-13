@@ -1,17 +1,23 @@
 .post-preview {
-    display: flex;
-    align-items: flex-start;
     margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
 }
 
-.post-preview-image {
-    width: 150px; /* Adjust size as needed */
+.post-thumbnail {
+    float: left;
+    width: 150px;
     height: auto;
     margin-right: 15px;
-    border-radius: 8px; /* Optional: to add rounded corners */
-    float: left; /* Ensure the text wraps around */
+    border-radius: 5px;
 }
 
-.post-preview-content {
-    flex: 1;
+.post-preview h2 {
+    margin-top: 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007acc;
 }
