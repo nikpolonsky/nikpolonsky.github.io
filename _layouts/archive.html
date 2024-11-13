@@ -3,8 +3,9 @@ layout: default
 ---
 <div class="home">
   <!-- Localize title with polyglot -->
+  <!--
   <h1 class="page-heading">{{ site.blog_archive_title[site.active_lang] }}</h1>
-
+  -->
   {{ content }}
 
   {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
@@ -34,7 +35,7 @@ layout: default
         </h2>
          <!-- Add this block to display the image -->
         {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 200px;">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100%; max-width: 100px;">
         {% endif %}
       </li>
     {% endfor %}
