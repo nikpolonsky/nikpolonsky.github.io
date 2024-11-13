@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+
+<style>
+ .wrap {
+   float: right; 
+   margin: 5px;
+  }
+</style>
+
 <head>
  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
@@ -38,6 +46,14 @@ layout: default
           {% endif %}
         </h2>
 
+       <div class="wrap">
+         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+       </div>
+       <div>
+         <p>{{ post.excerpt }}</p>
+         <a href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+       <!--
         <div class="post-preview">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
         <div class="post-content">
@@ -46,6 +62,7 @@ layout: default
           <a href="{{ post.url | relative_url }}">Read more</a>
         </div>
       </div>
+       -->
       </li>
     {% endfor %}
   </ul>
