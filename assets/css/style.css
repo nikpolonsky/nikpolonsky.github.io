@@ -13,6 +13,7 @@
 
 .post-thumbnail img {
   width: 100%; /* Make the image take the full width of the container */
+  max-width: 120px;
   height: auto; /* Maintain aspect ratio */
   border-radius: 5px; /* Optional: add rounded corners */
 }
