@@ -33,7 +33,7 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}"{% if lang != empty %} lang="{{ lang }}"{% endif %}>{{ post.title | escape }}</a>
           {% endif %}
         </h2>
-        
+        <!--
         <div class="post-preview">
           {% if post.image %}
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
@@ -42,7 +42,17 @@ layout: default
           <p>{{ post.excerpt }}</p>
           <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
         </div>
+        -->
+        <div class="post-preview">
+          <div class="post-thumbnail">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+          </div>
+        <div class="post-content">
         
+        <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+      </div>
       </li>
     {% endfor %}
   </ul>
