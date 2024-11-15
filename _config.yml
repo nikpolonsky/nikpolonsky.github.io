@@ -43,25 +43,25 @@ social_media:
     id: 'your.name@yoursite.com'
     href: 'mailto:'
     title: 'Email'
-    fa-icon: 'fa-envelope-square'
+    fa-icon: 'fa-envelope'
 
-  facebook:
-    id: 'your-facebook-username'
-    href: 'https://www.facebook.com/'
-    title: 'Facebook'
-    fa-icon: 'fa-facebook-square'
+  whatsapp:
+    id: '+123456789012'
+    href: 'https://api.whatsapp.com/send?phone='
+    title: 'Whatsapp'
+    fa-icon: 'fa-square-whatsapp'
 
   telegram:
     id: 'tov_nixon'
-    href: 'https://t.me/tov_nixon'
+    href: 'https://t.me/'
     title: 'Telegram'
     fa-icon: 'fa-telegram-plane'
 
-  github:
-    id: 'your-github-name'
-    href: 'https://github.com/'
-    title: 'GitHub'
-    fa-icon: 'fa-github-square'
+  instagram:
+    id: 'tov_nixon'
+    href: 'https://instagram.com/'
+    title: 'Instagram'
+    fa-icon: 'fa-instagram-square'
 
 # Build settings
 theme: jekyll-whiteglass
