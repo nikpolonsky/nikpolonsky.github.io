@@ -39,23 +39,17 @@ google_analytics:
 comments: false
 
 social_media:
-  email:
-    id: 'nik.polonsky.hd@gmail.com'
-    href: 'mailto:'
-    title: 'Email'
-    fa-icon: 'fa-envelope-square'
+  telegram:
+    id: 'tov_nixon'
+    href: 'https://t.me/'
+    title: 'Telegram'
+    fa-icon: 'fa-telegram-plane'
 
   whatsapp:
     id: '4917642728553'
     href: 'https://wa.me/'
     title: 'Whatsapp'
     fa-icon: 'fa-square-whatsapp'
-
-  telegram:
-    id: 'tov_nixon'
-    href: 'https://t.me/'
-    title: 'Telegram'
-    fa-icon: 'fa-telegram-plane'
 
   instagram:
     id: 'tov_nixon'
