@@ -3,7 +3,7 @@
  .wrap_icon {
    float: left; 
    margin: 5px;
-   max-width: 80px;
+   max-width: 60px;
   }
 </style>
 
@@ -12,7 +12,7 @@
 
   <div class="wrapper">
     <div class="wrap_icon">
-     <img src="{{ '/assets/images/hd_icon.png' | relative_url }}" alt="logo">
+     <img src="{{ '/assets/images/hd_icon.png' | relative_url }}" alt="logo" style="border-radius: 10px;">
     </div>  
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.human_design_title[site.active_lang] | escape }}</a>
     
