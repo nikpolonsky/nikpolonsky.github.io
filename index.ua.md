@@ -17,7 +17,3 @@ lang: ua
 {% highlight bash %}
 gem install jekyll-polyglot
 {% endhighlight %}
-
-{% include /assets/images.icons/telegram-brands-solid.svg %}
-{% include social-media-links.html %}
-<img src="{{ '/assets/images.icons/telegram-brands-solid.svg' | relative_url }}" alt="Icon Description" width="64" height="64">
