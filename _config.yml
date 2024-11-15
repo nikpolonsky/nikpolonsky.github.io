@@ -40,14 +40,14 @@ comments: false
 
 social_media:
   email:
-    id: 'your.name@yoursite.com'
+    id: 'nik.polonsky.hd@gmail.com'
     href: 'mailto:'
     title: 'Email'
     fa-icon: 'fa-envelope'
 
   whatsapp:
-    id: '+123456789012'
-    href: 'https://api.whatsapp.com/send?phone='
+    id: '4917642728553'
+    href: 'https://wa.me/'
     title: 'Whatsapp'
     fa-icon: 'fa-square-whatsapp'
 
