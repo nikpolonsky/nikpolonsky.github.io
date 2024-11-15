@@ -18,4 +18,6 @@ lang: ua
 gem install jekyll-polyglot
 {% endhighlight %}
 
+<i class="fa fa-twitter-square"></i>
+
 {% include social-media-links.html %}
