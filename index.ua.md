@@ -7,10 +7,6 @@ lang: ua
 
 ![Alt text](/assets/images/tmp.png){: .img }
 
-<div>
-{% include social-media-links.html %} tag
-</div>
-
 <p class="message">
   <b>Polyglot UA</b> asfsdfdsaf est un plugin open source d'internationalisation pour les blogs construits avec <a href="http://jekyllrb.com">Jekyll.</a> Polyglot est facile à installer et à utiliser pour tout projet, et il évolue avec les langues que vous souhaitez supporter. Avec solution de repli pour le contenu manquant, relativisation automatique d'URL, et de puissantes <a href="{{site.baseurl}}/seo/">recettes de SEO,</a> Polyglot permet un blog multi-langue pour se concentrer sur le contenu uniquement.
 </p>
@@ -21,3 +17,5 @@ lang: ua
 {% highlight bash %}
 gem install jekyll-polyglot
 {% endhighlight %}
+
+{% include social-media-links.html %}
