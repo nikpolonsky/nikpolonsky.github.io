@@ -5,6 +5,9 @@ permalink: /
 lang: ua
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-YOUR-INTEGRITY-HASH" crossorigin="anonymous">
+
+
 ![Alt text](/assets/images/tmp.png){: .img }
 
 <p class="message">
