@@ -17,3 +17,5 @@ lang: ua
 {% highlight bash %}
 gem install jekyll-polyglot
 {% endhighlight %}
+
+{% include social-media-links.html %}
