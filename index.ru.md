@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 lang: ru
-title: ""
+title: "еееыы"
 ---
 
 ### Какой еще дизайн?
