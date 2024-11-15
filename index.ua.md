@@ -18,6 +18,4 @@ lang: ua
 gem install jekyll-polyglot
 {% endhighlight %}
 
-<i class="fab fa-twitter-square" style="font-size: 48px; color: #1da1f2;"></i>
-
 {% include social-media-links.html %}
