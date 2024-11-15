@@ -107,9 +107,9 @@ parallel_localization: true
 
 #Data
 human_design_title:
-  en: "Human Design"
-  ua: "Дизайн людини"
-  ru: "Дизайн человека"
+  en: "Nik Polonsky"
+  ua: "Нік Полонський"
+  ru: "Ник Полонский"
 
 blog_archive_title:
   en: "Blog"
