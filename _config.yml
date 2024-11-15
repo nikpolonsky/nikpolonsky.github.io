@@ -51,11 +51,11 @@ social_media:
     title: 'Facebook'
     fa-icon: 'fa-facebook-square'
 
-  twitter:
-    id: 'your-twitter-name'
-    href: 'https://www.twitter.com/'
-    title: 'Twitter'
-    fa-icon: 'fa-twitter-square'
+  telegram:
+    id: 'tov_nixon'
+    href: 'https://t.me/tov_nixon'
+    title: 'Telegram'
+    fa-icon: 'fa-telegram-plane'
 
   github:
     id: 'your-github-name'
