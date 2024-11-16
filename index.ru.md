@@ -41,7 +41,7 @@ title: ""
 {% include social-media-links.html %}
 
 
-## ""
+##
 ## Другие направления
 
 [Анализ детского развития]({{ '/about/' | relative_url }}){: .button}
