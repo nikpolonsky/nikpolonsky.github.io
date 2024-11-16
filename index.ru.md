@@ -42,6 +42,7 @@ title: ""
 
 ## Другие консультации
 
-<a href="{{ '/about/' | relative_url }}" class="button">Анализ детского развития</a>
-<a href="{{ '/about/' | relative_url }}">Анализ отношений в паре</a>
+[Анализ детского развития]({{ '/about/' | relative_url }}){: .button}
+
+[Анализ отношений в паре]({{ '/about/' | relative_url }}){: .button}
 
