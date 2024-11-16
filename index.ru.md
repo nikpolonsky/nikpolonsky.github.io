@@ -40,7 +40,7 @@ title: ""
 
 {% include social-media-links.html %}
 
-## Другие консультации
+## Другие направления
 
 [Анализ детского развития]({{ '/about/' | relative_url }}){: .button}
 
