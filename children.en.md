@@ -1,11 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
-lang: ru
+permalink: /children/
+lang: en
 ---
 
-Приветы
 This is the whiteglass theme mode. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for whiteglass at GitHub:

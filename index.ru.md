@@ -44,7 +44,7 @@ title: ""
 
 ## Другие направления
 
-[Анализ детского развития]({{ '/about/' | relative_url }}){: .button}
+[Анализ детского развития]({{ '/children/' | relative_url }}){: .button}
 
-[Анализ отношений в паре]({{ '/about/' | relative_url }}){: .button}
+[Анализ отношений в паре]({{ '/children/' | relative_url }}){: .button}
 

@@ -1,10 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
-lang: en
+title: ""
+permalink: /children/
+lang: ru
 ---
 
+![Alt text](/assets/images/tmp.png){: .img }
+
+### Развитие ребенка  
+
+Приветы
 This is the whiteglass theme mode. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for whiteglass at GitHub:
