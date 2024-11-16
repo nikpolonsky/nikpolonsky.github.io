@@ -40,8 +40,7 @@ title: ""
 
 {% include social-media-links.html %}
 
-
-## 
+<br>
 
 ## Другие направления
 
