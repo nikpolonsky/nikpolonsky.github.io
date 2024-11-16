@@ -39,3 +39,8 @@ title: ""
 Связаться со мной можно написав в телеграм, ватсап или инстаграм
 
 {% include social-media-links.html %}
+
+## Другие консультации
+
+<a href="{{ '/about/' | relative_url }}" class="button">Go to About Page</a>
+
