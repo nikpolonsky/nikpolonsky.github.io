@@ -6,7 +6,7 @@
     border: 2px solid #dddddd; /* Light gray border */
     border-radius: 5px; /* Slightly rounded corners */
     text-decoration: none; /* Remove underline */
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Merriweather", serif; /* Matches the Whiteglass font */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
