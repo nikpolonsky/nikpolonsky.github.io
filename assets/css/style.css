@@ -16,3 +16,26 @@
     color: #000000; /* Darker text on hover */
     border-color: #cccccc; /* Slightly darker border on hover */
 }
+
+
+.appstore-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #000; /* App Store buttons are typically black */
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.appstore-button:hover {
+  background-color: #333;
+}
+
+.appstore-button i {
+  font-size: 24px;
+  margin-right: 10px; /* Spacing between icon and text */
+}

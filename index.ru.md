@@ -73,3 +73,9 @@ title: ""
 создавал для себя, с акцентом на простоту и удобство.
 Прекрасный компаньон в эксперименте.
 
+<a href="https://apps.apple.com/us/app/human-design-mechanics/id6499063695" class="appstore-button" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-app-store"></i>
+  <span>Human Design Mechanics</span>
+</a>
+
+
