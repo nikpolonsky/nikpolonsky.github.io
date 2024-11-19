@@ -46,7 +46,7 @@ title: ""
 
 [Анализ детского развития]({{ '/children/' | relative_url }}){: .button}
 
-[Анализ отношений в паре]({{ '/parnter/' | relative_url }}){: .button}
+[Анализ отношений в паре]({{ '/partner/' | relative_url }}){: .button}
 
 <br>
 
