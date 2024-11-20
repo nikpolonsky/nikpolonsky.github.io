@@ -6,9 +6,10 @@ lang: en
 categories: jekyll update
 image: "/assets/images/tmp2.jpg"
 ---
-All the information about Human Design (HD) comes from one person, Ra Uru Hu. 
-<!-- more --> 
-For myself, I call this the canon or the dogma of HD — those parts where it’s pointless to ask, "Why?" Because. Because Ra said so, and the Voice told him so, or maybe he just made it all up — it’s a matter of faith.
+All the information about Human Design (HD) comes from one person, Ra Uru Hu.  
+For myself, I call this the canon or the dogma of HD — those parts where it’s pointless to ask, "Why?" 
+<!-- more -->
+Because. Because Ra said so, and the Voice told him so, or maybe he just made it all up — it’s a matter of faith.
 
 To bring HD knowledge to the world and preserve its canonical purity, Ra created a school: the International Human Design School. It has a structured education program with homework, exams, and diplomas (or "medals") at the end.
 
