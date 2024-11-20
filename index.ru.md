@@ -77,14 +77,10 @@ title: ""
 
 ### Дизайн в кармане
 
-[Human Design Mechanics]({{ '/children/' | relative_url }}){: .button} мобильное приложение под iOS.
+[Human Design Mechanics]({{ '/mechanics/' | relative_url }}){: .button} мобильное приложение под iOS.
 Плод моей любви к программированию и Дизайну, 
 создавал для себя, с акцентом на простоту и удобство.
 Прекрасный компаньон в эксперименте.
 
-<a href="https://apps.apple.com/us/app/human-design-mechanics/id6499063695" class="appstore-button" target="_blank" rel="noopener noreferrer">
-  <i class="fab fa-app-store"></i>
-  <span>Human Design Mechanics</span>
-</a>
 
 
