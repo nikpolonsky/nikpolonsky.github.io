@@ -1,5 +1,5 @@
 ---
-title: "sdf"
+title: ""
 layout: page
 permalink: /
 lang: ua
