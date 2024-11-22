@@ -3,24 +3,6 @@
 main:
   - title:
       en: "Blog"    
-      ru: "Заметки"
-      ua: "Нотатки"
-    url: /archives/
-
-  - title:
-      en: "Blog 2"    
-      ru: "Заметки "
-      ua: "Нотатки 2"
-    url: /archives/
-
-  - title:
-      en: "Blog 3"    
-      ru: "Заметки3"
-      ua: "Нотатки 3"
-    url: /archives/
-
-  - title:
-      en: "Blog 1"    
-      ru: "Заметки 1"
-      ua: "Нотатки 1"
+      ru: "Блог"
+      ua: "Блог"
     url: /archives/
