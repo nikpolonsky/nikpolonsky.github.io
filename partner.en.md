@@ -42,7 +42,7 @@ No, consultations can be conducted individually or with both partners.
 ⁃ Languages: Ukrainian, Russian, English
 
 #### Cost
-€100 per session, lasting 60 minutes
+**€100** per session, lasting **60 minutes**
 
 I work selectively, only after a preliminary 15-minute online conversation.
 
