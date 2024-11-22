@@ -18,7 +18,9 @@ Focus areas include:
 
 #### Growth and Development
 ⁃ Collaborative decision-making
+
 ⁃ Supporting your partner effectively
+
 ⁃ Recognizing and validating less obvious needs
 
 #### Sexuality Mechanics
