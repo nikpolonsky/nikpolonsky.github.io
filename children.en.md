@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: ""
 permalink: /children/
 lang: en
 ---
@@ -14,18 +14,14 @@ lang: en
 ⁃ To help them grow in harmony with themselves. Understand how to nurture their natural talents, avoid stressful situations, and create a supportive environment for development.
 
 #### What’s the point?
-⁃ Every child has unique qualities. Without understanding their true nature, we may unintentionally impose expectations that conflict with who they are. This analysis helps you see who your child truly is.
+⁃ Every child has unique qualities. Without understanding their true nature, we may unintentionally impose expectations that conflict with who they are. This analysis helps you to see who your child truly is.
 
 #### What will I learn from the analysis?
 
 ⁃ How your child learns best.
-
 ⁃ What environment inspires them and what suppresses them.
-
 ⁃ Where their main strengths lie.
-
 ⁃ What they can rely on when making decisions.
-
 ⁃ How you influence your child and how they influence you.
 
 #### What does influence mean?
@@ -40,7 +36,7 @@ lang: en
 #### Is this about controlling my child?
 ⁃ No. It’s about understanding. If you know how your child sees the world, it’s easier to support them and provide what they need to thrive.
 
-#### Is this for life?
+#### Does this endure for a lifetime??
 ⁃ Yes. Human Design doesn’t change over time. What you learn now will help you and your child throughout their life.
 
 #### Who is this for?
