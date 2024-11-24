@@ -18,11 +18,11 @@ lang: en
 
 #### What will I learn from the analysis?
 
-⁃ How your child learns best.
-⁃ What environment inspires them and what suppresses them.
-⁃ Where their main strengths lie.
-⁃ What they can rely on when making decisions.
-⁃ How you influence your child and how they influence you.
+⁃ How your child learns best.  
+⁃ What environment inspires them and what suppresses them.  
+⁃ Where their main strengths lie.  
+⁃ What they can rely on when making decisions.  
+⁃ How you influence your child and how they influence you.  
 
 #### What does influence mean?
 ⁃ Each of us has unique energy traits that interact with others. Sometimes, without realizing it, you might transfer stress or anxiety—or, conversely, support and confidence—to your child. The analysis shows how you and your child affect each other, helping to create more harmonious relationships.
