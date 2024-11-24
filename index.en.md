@@ -1,25 +1,27 @@
 ---
 layout: page
 permalink: /
+title: ""
 lang: en
 ---
 ### Human Design in Simple Terms
 #### What kind of design?
 ⁃ Human Design. An empirical system of self-discovery.
 
-#### Why do I need it?
-⁃ It's a chance to reprogram yourself. To build an authentic connection with yourself and live your own life.
+#### Do I need it?
+⁃ It's a chance to rewire yourself. To empower an authentic connection with yourself and live your own life.
 
 #### What does that mean?
-⁃ Reprogramming means revisiting your understanding of yourself. Identifying what is truly "you" and what is external influence.
+⁃ To rewire means to revisit your understanding of yourself. Distinguishing what is truly "yours" and what is external influence.
 How and why the external takes over and steers you off course.
 
 #### Sounds a bit vague
 ⁃ And too good to be true, I get it.
-It’s not easy to sum up, but if what’s said here resonates, reach out.
+It’s hard to sum up, but if what’s said here resonates, reach out.
 
 I’ll hand you a map and compass.
-To be precise, you are both the map and compass—I just offer an instruction manual.
+To be precise, you are both the map and compass. 
+— I just offer a manual.
 Whether to use it or not is up to you, as is judging its validity.
 
 #### How do I work?
@@ -49,9 +51,9 @@ You can contact me via Telegram, WhatsApp, or Instagram:
 I am a mathematician and programmer with a fascination for mysticism. I started studying Human Design in 2019, drawn by its depth and unique perspective.
 Through extensive experimentation, I came to realize that the system works.
 
-Human Design offered me an answer to the question: Who am I?
+Human Design offered me an answer to the question: **Who am I?**
 
-An answer that, when you hear it, you instantly recognize as true.
+Such answer that, when you hear it, you instantly recognize as true.
 
 It’s influenced my worldview, career, relationships, and parenting.
 
@@ -60,7 +62,7 @@ It’s influenced my worldview, career, relationships, and parenting.
 I write about my life through the lens of Human Design.
 
 If you're considering a consultation, I recommend reading a few of these posts.
-I’m as candid and open as possible there—a good chance to calibrate your expectations.
+I’m as candid and open as possible there — a good chance to calibrate your expectations.
 
 For example, [here](/2020/04/24/my-experience-in-experimentation), I talk about how experimenting with Human Design impacted my life and relationships.
 

@@ -17,10 +17,15 @@ lang: en
 ⁃ Every child has unique qualities. Without understanding their true nature, we may unintentionally impose expectations that conflict with who they are. This analysis helps you see who your child truly is.
 
 #### What will I learn from the analysis?
+
 ⁃ How your child learns best.
+
 ⁃ What environment inspires them and what suppresses them.
+
 ⁃ Where their main strengths lie.
+
 ⁃ What they can rely on when making decisions.
+
 ⁃ How you influence your child and how they influence you.
 
 #### What does influence mean?
@@ -43,7 +48,9 @@ lang: en
 
 ### How do I work?
 ⁃ Up to 3 sessions, in Berlin or online
+
 ⁃ 1 session per week
+
 ⁃ Languages: Ukrainian, Russian, English
 
 #### Cost
