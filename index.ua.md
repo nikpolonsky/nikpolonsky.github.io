@@ -5,7 +5,7 @@ permalink: /
 lang: ua
 ---
 
-![Alt text](/assets/images/tmp.png){: .img }
+![Alt text](/assets/images/me.jpg){: .img }
 
 ### Дизайн Людини зрозумілою
 #### Який ще дизайн?

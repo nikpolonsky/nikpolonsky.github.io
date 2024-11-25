@@ -4,6 +4,9 @@ permalink: /
 title: ""
 lang: en
 ---
+
+![Alt text](/assets/images/me.jpg){: .img }
+
 ### Human Design in Simple Terms
 #### What kind of design?
 ⁃ Human Design. An empirical system of self-discovery.
