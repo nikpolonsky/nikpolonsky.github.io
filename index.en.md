@@ -69,7 +69,7 @@ I’m as candid and open as possible there — a good chance to calibrate your e
 
 For example, [here](/2021/12/27/my-experience-in-experimentation), I talk about how experimenting with Human Design impacted my life and relationships.
 
-And [here](/2020/04/25/fork-on-the-road), I explain why I chose not to attend an official school.
+And [here](/2021/12/04/fork-on-the-road), I explain why I chose not to attend an official school.
 
 ### [Human Design Mechanics](/mechanics/)
 A mobile app for iOS.
