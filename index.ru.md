@@ -5,7 +5,7 @@ lang: ru
 title: ""
 ---
 
-![Alt text](/assets/images/tmp.png){: .img }
+![Alt text](/assets/images/me.jpg){: .img }
 
 ### Дизайн человека на понятном языке  
 
