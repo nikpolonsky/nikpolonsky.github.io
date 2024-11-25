@@ -39,7 +39,7 @@ Whether to use it or not is up to you, as is judging its validity.
 
 I work selectively, only after a preliminary 15-minute online conversation.
 
-You can contact me via Telegram, WhatsApp, or Instagram:
+You can **contact** me via Telegram, WhatsApp, or Instagram:
 
 {% include social-media-links.html %}
 

@@ -57,8 +57,3 @@ image: "/assets/images/tmp2.jpg"
 Технически we're still looking for home, но сейчас я бы сказал, что we're just looking forward.
 А что ещё остаётся:)
 PS: Переход в хоум-офис и сокращение больше чем вдвое рабочего времени были настоящим спасением, страшно представить что было бы, если б всё продолжилось как раньше... А как приход короны тогда, в 2020м, повлиял на вашу жизнь?
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

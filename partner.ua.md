@@ -48,6 +48,6 @@ lang: ua
 
 Беру в роботу не всіх, лише після попередньої 15-хвилинної бесіди онлайн.
 
-Зі мною можна зв’язатися через Telegram, WhatsApp або Instagram:
+Зі мною можна **зв’язатися** через Telegram, WhatsApp або Instagram:
 
 {% include social-media-links.html %}

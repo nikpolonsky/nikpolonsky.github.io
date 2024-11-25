@@ -48,6 +48,6 @@ No, consultations can be conducted individually or with both partners.
 
 I work selectively, only after a preliminary 15-minute online conversation.
 
-You can contact me via Telegram, WhatsApp, or Instagram:
+You can **contact** me via Telegram, WhatsApp, or Instagram:
 
 {% include social-media-links.html %}
