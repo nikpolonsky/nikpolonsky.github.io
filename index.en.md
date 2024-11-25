@@ -5,7 +5,7 @@ title: ""
 lang: en
 ---
 
-![Alt text](/assets/images/me.jpg){: .img }
+![Alt text](/assets/images/me_trim.jpg){: .img }
 
 ### Human Design in Simple Terms
 #### What kind of design?
@@ -67,7 +67,7 @@ I write about my life through the lens of Human Design.
 If you're considering a consultation, I recommend reading a few of these posts.
 I’m as candid and open as possible there — a good chance to calibrate your expectations.
 
-For example, [here](/2020/04/24/my-experience-in-experimentation), I talk about how experimenting with Human Design impacted my life and relationships.
+For example, [here](/2021/12/27/my-experience-in-experimentation), I talk about how experimenting with Human Design impacted my life and relationships.
 
 And [here](/2020/04/25/fork-on-the-road), I explain why I chose not to attend an official school.
 

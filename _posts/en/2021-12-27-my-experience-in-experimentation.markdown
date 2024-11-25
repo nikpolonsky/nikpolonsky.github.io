@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Experience in Experimentation"
-date:   2020-04-24 15:10:56 +0100
+date:   2021-12-27 15:10:56 +0100
 lang: en
 categories: jekyll update
 image: "/assets/images/tmp2.jpg"
