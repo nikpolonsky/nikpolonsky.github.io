@@ -5,8 +5,6 @@ permalink: /children/
 lang: ru
 ---
 
-![Alt text](/assets/images/tmp.png){: .img }
-
 ### Анализ детского развития  
 
 #### Что это такое?
