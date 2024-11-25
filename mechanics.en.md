@@ -7,7 +7,7 @@ lang: en
 
 ## Bring Human Design into the daily life.  
 
-![Alt text](/assets/images/app_screen.png){: .img style="float: left;"}
+![Alt text](/assets/images/app_screen.jpg){: .img style="float: left;"}
 
 ### Build charts instantly.
 
@@ -33,6 +33,19 @@ All the calculations are made on your device.
 
 Your data isn't sent anywhere, it always remains on the device.
 
+### Primary purpose:
+✅ build Human Design charts
+✅ organize a collection of charts that pique your interest
+✅ support you in chart analysis by providing relevant key notes
+✅ help to follow planetary transits
+
+### Out of scope:
+❌ guidance for your unique direction
+❌ compatibility in relationships
+❌ career advice
+❌ imrove life quality
+
+## Download
 <a href="https://apps.apple.com/us/app/human-design-mechanics/id6499063695" target="_blank">
   <img src="{{ '/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg' | relative_url }}" alt="Icon">
 </a>
