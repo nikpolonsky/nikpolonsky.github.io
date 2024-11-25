@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fork on the road"
+title:  "How I (Didn't) Fall for Human Design"
 date:   2021-12-04 15:10:56 +0100
 lang: en
 categories: jekyll update

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Розвилка"
+title:  "Як я (не)повівся на Дизайн Людини?"
 date:   2021-12-04 15:10:56 +0100
 lang: ua
 categories: jekyll update
