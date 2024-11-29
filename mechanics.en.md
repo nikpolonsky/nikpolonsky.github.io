@@ -7,7 +7,7 @@ lang: en
 
 ## Bring Human Design into the daily life.  
 
-![Alt text](/assets/images/app_screen.jpg){: .img style="float: left;"}
+![Alt text](/assets/images/app_screen.jpg){: .img}
 
 ### Build charts instantly.
 
