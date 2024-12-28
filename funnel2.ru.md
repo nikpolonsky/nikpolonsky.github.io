@@ -3,6 +3,7 @@ layout: page
 title: ""
 permalink: /about_hd_for_children/
 lang: en
+show_header: false
 ---
 
 ## Ну здравствуй
