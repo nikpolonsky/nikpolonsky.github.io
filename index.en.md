@@ -35,7 +35,7 @@ Whether to use it or not is up to you, as is judging its validity.
 ⁃ Languages: Ukrainian, Russian, English
 
 #### Cost
-**€60** per session, lasting **45 minutes**
+**€80** per session, lasting **60 minutes**
 
 I work selectively, only after a preliminary 15-minute online conversation.
 
