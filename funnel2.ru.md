@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Что такое Дизайн Человека"
 permalink: /about_hd_for_children/
 lang: en
 show_header: false
