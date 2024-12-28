@@ -7,6 +7,7 @@
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
   <title>{{ title }}</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon60.png' | relative_url }}">
   <meta name="description" content="{{ description }}">
   {% if page.keywords %}
     {% if page.keywords.first %}
