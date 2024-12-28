@@ -4,9 +4,11 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
+    <!-- Explicitly hide header for certain pages -->
+    {% unless page.show_header == false %}
+      {% include header.html %}
+    {% endunless %}
+    
       <!-- Language Selection Menu -->
       <div class="wrapper" style="text-align: right;">
         {% for tongue in site.languages %}
