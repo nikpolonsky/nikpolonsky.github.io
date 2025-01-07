@@ -33,7 +33,7 @@ show_header: false
 Тогда **Аланин**(GCU) можно записать как **011000** 
 Аналогично можно записать любой кодон: 
 
-![Alt text](/assets/images/nuces.png){: .img}
+![Alt text](/assets/images/aminoacids.png){: .img}
 
 #### А уже знакомый фрагмент кода можно представить в виде:
 
