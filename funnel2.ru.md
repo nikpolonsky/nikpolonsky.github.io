@@ -299,3 +299,4 @@ show_header: false
 
 Жми **"Дальше"**, если хочешь узнать как.
 
+[Дальше]({{ 'https://google.com' | absolute_url }}){: .button}
