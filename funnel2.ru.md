@@ -299,4 +299,5 @@ show_header: false
 
 Жми **"Дальше"**, если хочешь узнать как.
 
-[Дальше]({{ 'https://google.com' | absolute_url }}){: .button}
+Жми [Дальше]({{ 'https://google.com' | absolute_url }}){: .button}, если хочешь узнать как.
+
