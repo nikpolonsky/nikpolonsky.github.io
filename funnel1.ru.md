@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+# title: ""
 permalink: /parenting_intro/
 lang: ru
 show_header: false
