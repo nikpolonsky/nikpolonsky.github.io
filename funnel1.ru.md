@@ -6,7 +6,7 @@ lang: ru
 show_header: false
 ---
 
-![Alt text](/assets/images/funnel1_banner.png){: .img}
+![Alt text](/assets/images/funnel1_banner_opt2.png){: .img}
 
 Все мы любим своих детей. И хотим для них самого лучшего. Но несмотря на усилия родителей, дети не всегда вырастают счастливыми и самодостаточными.
 
