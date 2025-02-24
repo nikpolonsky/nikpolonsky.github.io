@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Что такое Дизайн Человека"
+title: ""
 permalink: /about_hd_for_children/
 lang: en
 show_header: false
 ---
 
---------------------------------
+![Alt text](/assets/images/funnel2_banner.png){: .img}
 
 Рад, что ты читаешь вторую и самую важную статью этого цикла.
 Здесь я расскажу об инструменте, который поможет глубоко понять, как устроен любой человек.
