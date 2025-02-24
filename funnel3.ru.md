@@ -1,14 +1,13 @@
 ---
 layout: page
-title: "Анализ детского развития"
+title: ""
 permalink: /child_development_analysis/
 lang: en
 show_header: false
 ---
 
-## через призму Дизайна Человека
+![Alt text](/assets/images/funnel3_banner.png){: .img}
 
-![Alt text](/assets/images/stroller.jpg){: .img}
 ### Воспитание и забота, основанные на понимании уникальной природы твоего ребёнка
 
 Получи подробный разбор карты уникальности своего ребенка:
