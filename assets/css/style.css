@@ -1,3 +1,7 @@
+body {
+  font-size: 20px !important;
+}
+
 .button {
     display: inline-block;
     padding: 10px 20px;
