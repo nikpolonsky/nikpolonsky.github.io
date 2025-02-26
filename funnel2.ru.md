@@ -32,30 +32,33 @@ show_header: false
 ## Краткий экскурс в генетику
 Каждая клетка нашего тела содержит ДНК, которая записывает все важнейшие инструкции для организма. Все живые существа, от рыбки до человека, используют для записи информации всего 22 кодона. Каждый из этих кодонов состоит из тройки нуклеотидов, которых всего четыре.
 
-![Alt text](/assets/images/nuces_only.png){: .img}
+![Alt text](/assets/images/funnel2_1_1.png){: .img}
+<!-- ![Alt text](/assets/images/nuces_only.png){: .img} -->
 
 Кодон **Ala (Аланин)** кодируется как **GCU**
 
 Так что фрагмент генетического кода может выглядеть так:
 
 
-![Alt text](/assets/images/sequence_only.png){: .img}
+![Alt text](/assets/images/funnel2_1_2.png){: .img}
+<!-- ![Alt text](/assets/images/sequence_only.png){: .img} -->
 
 ### Что если каждый из нуклеотидов представить в виде двоичного кода? 
 
-![Alt text](/assets/images/nuces.png){: .img}
+![Alt text](/assets/images/funnel2_1_3.png){: .img}
+<!-- ![Alt text](/assets/images/nuces.png){: .img} -->
 
 Тогда **Аланин**(GCU) можно записать как **011000** 
 
 Аналогично можно записать любой кодон: 
 
-![Alt text](/assets/images/aminoacids.png){: .img}
-
+![Alt text](/assets/images/funnel2_1_4.png){: .img}
+<!-- ![Alt text](/assets/images/aminoacids.png){: .img} -->
 
 ### Теперь мы видим, что фрагмент ДНК можно записать в двоичном коде:
 
-![Alt text](/assets/images/sequence.png){: .img}
-
+![Alt text](/assets/images/funnel2_1_5.png){: .img}
+<!-- ![Alt text](/assets/images/sequence.png){: .img} -->
 
 Сколькими способами можно записать последовательность из шести 0 и 1? 
 Не мне тебе рассказывать, что это 2 в 6й степени, то есть 64.
