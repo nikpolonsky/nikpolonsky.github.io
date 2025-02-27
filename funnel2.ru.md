@@ -35,7 +35,7 @@ show_header: false
 ![Alt text](/assets/images/funnel2_1_1.png){: .img}
 <!-- ![Alt text](/assets/images/nuces_only.png){: .img} -->
 
-Кодон **Ala (Аланин)** кодируется как **GCU**
+Кодон **Ala (Аланин)** - это Гуанин + Цитозин + Урацил, что кодируется как **GCU**
 
 Так что фрагмент генетического кода может выглядеть так:
 
@@ -47,7 +47,9 @@ show_header: false
 ![Alt text](/assets/images/funnel2_1_3.png){: .img}
 <!-- ![Alt text](/assets/images/nuces.png){: .img} -->
 
-Тогда **Аланин**(GCU) можно записать как **011000** 
+Тогда  **Ala (Аланин)** = Гуанин + Цитозин + Урацил = G + C + U = 01 + 11 + 00.
+
+Или **Ala = 011000** 
 
 Аналогично можно записать любой кодон: 
 
