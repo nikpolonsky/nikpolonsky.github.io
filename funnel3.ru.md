@@ -28,9 +28,13 @@ show_header: false
 
 Помоги себе, как родителю, получать максимум кайфа от взаимодействия с ребенком.
 
+
 <div class="button-container">
-[Записаться на консультацию]({{ 'https://google.com' | absolute_url }}){: .button}
+    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
+
+[Записаться на консультацию]({{ 'https://google.com' | absolute_url }}){: .button}
+
 
 ### Родительство - это не просто
 
