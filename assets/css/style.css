@@ -18,10 +18,11 @@ body {
 }
 
 .button-container {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+    justify-content: center; /* Центрирует flex-элементы */
+    text-align: center; /* На случай, если flex не сработает */
+    margin-top: 20px;
 }
 
 /*
