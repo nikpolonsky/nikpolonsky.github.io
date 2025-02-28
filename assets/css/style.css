@@ -17,7 +17,7 @@ body {
     background-color: darkviolet;
 }
 
-.button_container {
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
