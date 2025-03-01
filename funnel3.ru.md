@@ -32,9 +32,6 @@ show_header: false
     <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
 
-[Записаться на консультацию]({{ 'https://google.com' | absolute_url }}){: .button}
-
-
 ### Родительство - это не просто
 
 ![Alt text](/assets/images/funnel3_1.png){: .img}
