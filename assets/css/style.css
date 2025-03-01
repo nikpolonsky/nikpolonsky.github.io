@@ -4,19 +4,20 @@ body {
 
 .button {
     background: rgb(72, 12, 134); 
-    color: white;
+    color: white !important;
     border: none;
     padding: 10px 20px;
     font-size: 22px;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    -webkit-text-fill-color: white;
+/*    transition: background-color 0.3s ease;*/
 }
 
 .button:hover {
     background: rgb(138, 87, 198);
     color: white;
-/*    -webkit-text-fill-color: white;*/
+    -webkit-text-fill-color: white;
 }
 
 .button-container {
