@@ -14,7 +14,7 @@ body {
 }
 
 .button-gradient-text {
-    background: linear-gradient(45deg, #ff512f, #dd2476);
+    background: linear-gradient(45deg, rgb(138, 87, 198), rgb(72, 12, 134));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* Makes text take gradient */
 }
