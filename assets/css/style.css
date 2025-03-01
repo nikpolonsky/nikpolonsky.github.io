@@ -3,8 +3,8 @@ body {
 }
 
 .button {
-    background: linear-gradient(45deg, rgb(138, 87, 198), rgb(72, 12, 134)); 
-    color: white !important;
+    background: rgb(72, 12, 134); 
+    color: white;
     border: none;
     padding: 10px 20px;
     font-size: 22px;
@@ -13,16 +13,10 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.button-gradient-text {
-    background: linear-gradient(45deg, rgb(138, 87, 198), rgb(72, 12, 134));
-    -webkit-background-clip: text;
-/*    -webkit-text-fill-color: transparent; /* Makes text take gradient */*/
-}
-
 .button:hover {
-    background: linear-gradient(45deg, rgb(72, 12, 134), rgb(138, 87, 198));
-    color: white !important;
-    -webkit-text-fill-color: white;
+    background: rgb(138, 87, 198);
+    color: white;
+/*    -webkit-text-fill-color: white;*/
 }
 
 .button-container {
