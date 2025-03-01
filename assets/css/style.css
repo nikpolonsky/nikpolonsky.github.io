@@ -21,6 +21,7 @@ body {
 
 .button:hover {
     background: linear-gradient(45deg, rgb(72, 12, 134), rgb(138, 87, 198));
+    color: white;
 }
 
 .button-container {
