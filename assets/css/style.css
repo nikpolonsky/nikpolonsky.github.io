@@ -3,18 +3,18 @@ body {
 }
 
 .button {
-    background-color: violet;
+    background: linear-gradient(45deg, rgb(138, 87, 198), rgb(72, 12, 134)); 
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 22px;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: darkviolet;
+    background: linear-gradient(45deg, rgb(72, 12, 134), rgb(138, 87, 198));
 }
 
 .button-container {
