@@ -40,6 +40,16 @@
     cursor: grab;
   }
 
+  .reviews-wrapper {
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .review img {
+    pointer-events: none; /* Prevent dragging images */
+  }
   .reviews-wrapper:active {
     cursor: grabbing;
   }
@@ -144,7 +154,7 @@
 
     wrapper.addEventListener("mousemove", (e) => {
       if (!isDown) return;
-      e.preventDefault();
+      e.preventDefault(); // Prevents text selection
       const x = e.pageX - wrapper.offsetLeft;
       const walk = (x - startX) * 2; // Speed multiplier
       wrapper.scrollLeft = scrollLeft - walk;
