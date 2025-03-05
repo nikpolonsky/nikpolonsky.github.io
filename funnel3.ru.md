@@ -228,6 +228,8 @@ show_header: false
 
 будут позже
 
+{% include reviews.html %}
+
 ---
 
 ### Хочешь попробовать?
