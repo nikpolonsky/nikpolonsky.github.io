@@ -1,163 +1,185 @@
-<div class="reviews-container">
-  <div class="reviews-wrapper" id="reviewsWrapper">
-    <div class="review">
-      <img src="/assets/avatar1.jpg" alt="Client 1" class="avatar">
-      <h4>John Doe</h4>
-      <p>"This service is amazing! Highly recommended."</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Slider</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .reviews-container {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .reviews-wrapper {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Hide scrollbar for Firefox */
+        }
+
+        .reviews-wrapper::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for Chrome, Safari */
+        }
+
+        .review {
+            flex: 0 0 auto;
+            width: 100%;
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            scroll-snap-align: center;
+        }
+
+        .avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background: #bbb;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .dot.active {
+            background: #333;
+        }
+
+        .nav-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .prev, .next {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 18px;
+        }
+
+        .prev:hover, .next:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reviews-container">
+        <div class="nav-buttons">
+            <button class="prev">←</button>
+            <button class="next">→</button>
+        </div>
+
+        <div class="reviews-wrapper">
+            <div class="review">
+                <img src="/assets/avatar1.jpg" alt="Client 1" class="avatar">
+                <h4>John Doe</h4>
+                <p>"This service is amazing! Highly recommended."</p>
+            </div>
+            <div class="review">
+                <img src="/assets/avatar2.jpg" alt="Client 2" class="avatar">
+                <h4>Jane Smith</h4>
+                <p>"A game-changer for my business! Love it."</p>
+            </div>
+            <div class="review">
+                <img src="/assets/avatar3.jpg" alt="Client 3" class="avatar">
+                <h4>Mike Johnson</h4>
+                <p>"Fantastic customer support and easy to use."</p>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </div>
-    <div class="review">
-      <img src="/assets/avatar2.jpg" alt="Client 2" class="avatar">
-      <h4>Jane Smith</h4>
-      <p>"A game-changer for my business! Love it."</p>
-    </div>
-    <div class="review">
-      <img src="/assets/avatar3.jpg" alt="Client 3" class="avatar">
-      <h4>Mike Johnson</h4>
-      <p>"Fantastic customer support and easy to use."</p>
-    </div>
-  </div>
 
-  <!-- Pagination Dots -->
-  <div class="pagination" id="pagination"></div>
-</div>
+    <script>
+        const wrapper = document.querySelector(".reviews-wrapper");
+        const reviews = document.querySelectorAll(".review");
+        const dots = document.querySelectorAll(".dot");
+        const prevBtn = document.querySelector(".prev");
+        const nextBtn = document.querySelector(".next");
 
-<style>
-  .reviews-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 600px; /* Adjust width as needed */
-    margin: auto;
-  }
+        let reviewWidth = reviews[0].offsetWidth;
 
-  .reviews-wrapper {
-    display: flex;
-    scroll-snap-type: x mandatory;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    white-space: nowrap;
-    cursor: grab;
-  }
+        function updateActiveDot(index) {
+            dots.forEach(dot => dot.classList.remove("active"));
+            dots[index].classList.add("active");
+        }
 
-  .reviews-wrapper {
-    user-select: none; /* Prevent text selection */
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
+        dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+                wrapper.scrollTo({ left: index * reviewWidth, behavior: "smooth" });
+                updateActiveDot(index);
+            });
+        });
 
-  .review img {
-    pointer-events: none; /* Prevent dragging images */
-  }
-  .reviews-wrapper:active {
-    cursor: grabbing;
-  }
+        nextBtn.addEventListener("click", () => {
+            let newIndex = Math.min(Math.floor(wrapper.scrollLeft / reviewWidth) + 1, reviews.length - 1);
+            wrapper.scrollTo({ left: newIndex * reviewWidth, behavior: "smooth" });
+            updateActiveDot(newIndex);
+        });
 
-  .review {
-    flex: 0 0 100%;
-    width: 100%;
-    background: #f8f8f8;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    scroll-snap-align: center;
-  }
+        prevBtn.addEventListener("click", () => {
+            let newIndex = Math.max(Math.floor(wrapper.scrollLeft / reviewWidth) - 1, 0);
+            wrapper.scrollTo({ left: newIndex * reviewWidth, behavior: "smooth" });
+            updateActiveDot(newIndex);
+        });
 
-  .avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
+        wrapper.addEventListener("scroll", () => {
+            let index = Math.round(wrapper.scrollLeft / reviewWidth);
+            updateActiveDot(index);
+        });
 
-  /* Pagination Dots */
-  .pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
+        window.addEventListener("resize", () => {
+            reviewWidth = reviews[0].offsetWidth;
+        });
+    </script>
 
-  .dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    background: #ccc;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-
-  .dot.active {
-    background: #333;
-  }
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const wrapper = document.getElementById("reviewsWrapper");
-    const pagination = document.getElementById("pagination");
-    const reviews = document.querySelectorAll(".review");
-    let currentIndex = 0;
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    // Create pagination dots
-    reviews.forEach((_, index) => {
-      const dot = document.createElement("div");
-      dot.classList.add("dot");
-      if (index === 0) dot.classList.add("active");
-      dot.addEventListener("click", () => scrollToReview(index));
-      pagination.appendChild(dot);
-    });
-
-    function scrollToReview(index) {
-      const offset = index * wrapper.clientWidth;
-      wrapper.scrollTo({ left: offset, behavior: "smooth" });
-      updateDots(index);
-    }
-
-    function updateDots(index) {
-      document.querySelectorAll(".dot").forEach((dot, i) => {
-        dot.classList.toggle("active", i === index);
-      });
-      currentIndex = index;
-    }
-
-    // Detect scroll position and update dots
-    wrapper.addEventListener("scroll", () => {
-      let newIndex = Math.round(wrapper.scrollLeft / wrapper.clientWidth);
-      if (newIndex !== currentIndex) {
-        updateDots(newIndex);
-      }
-    });
-
-    // Mouse Drag Scrolling
-    wrapper.addEventListener("mousedown", (e) => {
-      isDown = true;
-      wrapper.classList.add("active");
-      startX = e.pageX - wrapper.offsetLeft;
-      scrollLeft = wrapper.scrollLeft;
-    });
-
-    wrapper.addEventListener("mouseleave", () => {
-      isDown = false;
-      wrapper.classList.remove("active");
-    });
-
-    wrapper.addEventListener("mouseup", () => {
-      isDown = false;
-      wrapper.classList.remove("active");
-    });
-
-    wrapper.addEventListener("mousemove", (e) => {
-      if (!isDown) return;
-      e.preventDefault(); // Prevents text selection
-      const x = e.pageX - wrapper.offsetLeft;
-      const walk = (x - startX) * 2; // Speed multiplier
-      wrapper.scrollLeft = scrollLeft - walk;
-    });
-  });
-</script>
+</body>
+</html>
