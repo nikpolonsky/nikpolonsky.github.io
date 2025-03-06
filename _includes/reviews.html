@@ -189,6 +189,13 @@
     let currentTranslate = 0;
     let prevTranslate = 0;
     
+    // Scroll control variables
+    let lastScrollTime = 0;
+    let scrollTimeout = null;
+    const scrollCooldown = 500; // ms to wait between scroll actions
+    let wheelDeltaTotal = 0;
+    const wheelThreshold = 50; // Amount of wheel delta needed to trigger a slide change
+    
     // Initialize
     function initialize() {
       // Create pagination dots
@@ -268,21 +275,62 @@
       track.style.transform = `translateX(${position}%)`;
     }
     
-    // Handle horizontal wheel scrolling
+    // Improved wheel handling for smoother, more controlled scrolling
     container.addEventListener('wheel', function(e) {
       e.preventDefault();
-      const scrollAmount = e.deltaY > 0 ? 1 : -1;
-      goToSlide(currentIndex + scrollAmount);
-    }, { passive: false });
-    
-    // Also support horizontal scrolling for trackpad users
-    container.addEventListener('wheel', function(e) {
-      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
-        e.preventDefault();
-        const scrollAmount = e.deltaX > 0 ? 1 : -1;
-        goToSlide(currentIndex + scrollAmount);
+      
+      const now = Date.now();
+      
+      // Different handling for trackpad vs mouse wheel
+      if (e.deltaMode === 0) {
+        // Trackpad (pixel-based scrolling)
+        handleTrackpadScroll(e);
+      } else {
+        // Mouse wheel (line or page based scrolling)
+        handleMouseWheelScroll(e);
       }
     }, { passive: false });
+    
+    function handleTrackpadScroll(e) {
+      // Accumulate scroll delta
+      wheelDeltaTotal += Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+      
+      // Clear any existing timeout
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+      
+      // Set a timeout to reset the accumulated delta if scrolling stops
+      scrollTimeout = setTimeout(() => {
+        wheelDeltaTotal = 0;
+      }, 200);
+      
+      // Only trigger a slide change when threshold is reached
+      if (Math.abs(wheelDeltaTotal) >= wheelThreshold) {
+        const now = Date.now();
+        
+        // Add cooldown to prevent rapid scrolling
+        if (now - lastScrollTime > scrollCooldown) {
+          const scrollDirection = wheelDeltaTotal > 0 ? 1 : -1;
+          goToSlide(currentIndex + scrollDirection);
+          lastScrollTime = now;
+        }
+        
+        // Reset accumulator after processing
+        wheelDeltaTotal = 0;
+      }
+    }
+    
+    function handleMouseWheelScroll(e) {
+      const now = Date.now();
+      
+      // Add cooldown to prevent rapid scrolling
+      if (now - lastScrollTime > 300) {
+        const scrollAmount = (e.deltaY > 0 || e.deltaX > 0) ? 1 : -1;
+        goToSlide(currentIndex + scrollAmount);
+        lastScrollTime = now;
+      }
+    }
     
     // Mobile touch events
     container.addEventListener('touchstart', touchStart);
@@ -389,5 +437,6 @@
     initialize();
   });
 </script>
+
 </body>
 </html>
