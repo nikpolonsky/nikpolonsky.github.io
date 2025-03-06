@@ -1,23 +1,19 @@
 - name: John Smith
   position: CEO at TechCorp
-  stars: 5
   text: "This product completely transformed our workflow. The intuitive interface and powerful features have increased our productivity by 35%."
   image: "/assets/images/testimonials/john.jpg"
 
 - name: Sarah Johnson
   position: Marketing Director
-  stars: 4
   text: "We've been using this for 6 months now and it's been a game-changer for our team. Would highly recommend to anyone looking to streamline their processes."
   image: "/assets/images/testimonials/sarah.jpg"
 
 - name: Michael Wong
   position: Freelance Designer
-  stars: 5
   text: "As a freelancer, I need tools that are reliable and efficient. This exceeded all my expectations and has become essential to my daily workflow."
   image: "/assets/images/testimonials/michael.jpg"
 
 - name: Emily Davis
   position: Small Business Owner
-  stars: 5
   text: "The customer support is outstanding. Whenever I've had questions, their team has been quick to respond and incredibly helpful."
   image: "/assets/images/testimonials/emily.jpg"
