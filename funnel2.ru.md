@@ -299,10 +299,6 @@ show_header: false
 Жми **Дальше**, если хочешь узнать как.
 
 <div class="button-container">
-    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" class="button" id="track-click">Дальше</a>
-</div>
-
-<div class="button-container">
     <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" 
        class="button" 
        id="track-click">Дальше</a>
