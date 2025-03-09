@@ -299,5 +299,54 @@ show_header: false
 Жми **Дальше**, если хочешь узнать как.
 
 <div class="button-container">
-    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" class="button">Дальше</a>
+    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" class="button" id="track-click">Дальше</a>
 </div>
+
+<div class="button-container">
+    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" 
+       class="button" 
+       id="track-click">Дальше</a>
+</div>
+
+<script>
+  // Function to get the subscriber_id from the URL
+  function getSubscriberId() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("subscriber_id");
+  }
+
+  document.getElementById('track-click').addEventListener('click', function(event) {
+      event.preventDefault(); // Stop immediate redirection
+
+      const subscriberId = getSubscriberId();
+      const nextPage = this.href; // Store the original link
+
+      if (subscriberId) {
+          fetch('https://api.manychat.com/fb/subscriber/setCustomField', {
+              method: 'POST',
+              headers: {
+                  'Authorization': 'Bearer 2577614:4ddeac4030586e0ed4ef8202dca75a3e',
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({
+                  subscriber_id: subscriberId,  
+                  field_name: 'proceed_to_landing_from_funnel2',
+                  field_value: true
+              })
+          })
+          .then(response => response.json())
+          .then(data => {
+              console.log('Tracked Click:', data);
+              window.location.href = nextPage; // Redirect after tracking
+          })
+          .catch(error => {
+              console.error('Error:', error);
+              window.location.href = nextPage; // Redirect even if tracking fails
+          });
+      } else {
+          console.error("No subscriber ID found!");
+          window.location.href = nextPage; // Redirect if no subscriber ID is available
+      }
+  });
+</script>
+
