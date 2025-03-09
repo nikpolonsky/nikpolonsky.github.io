@@ -326,7 +326,7 @@ show_header: false
               },
               body: JSON.stringify({
                   subscriber_id: subscriberId,  
-                  field_name: 'proceed_to_landing_from_funnel2',
+                  field_id: 12638613, // proceed_to_landing_from_funnel2
                   field_value: true
               })
           })
