@@ -299,5 +299,5 @@ show_header: false
 Жми **Дальше**, если хочешь узнать как.
 
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Дальше</a>
+    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis/' | absolute_url }}" class="button">Дальше</a>
 </div>
