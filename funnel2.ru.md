@@ -318,37 +318,26 @@ show_header: false
       const nextPage = this.href; // Store the original link
 
       if (subscriberId) {
-          fetch('https://api.manychat.com/fb/subscriber/setCustomField', {
-              method: "POST",
-              headers: {
-              	  "accept": "application/json",
-                  "Authorization": "Bearer 2577614:4ddeac4030586e0ed4ef8202dca75a3e",
-                  "Content-Type": "application/json"
-              },
-              body: JSON.stringify({
-                subscriber_id: parseInt(subscriberId), // Ensure it's a number
-                field_id: 12638613, // Use field_id instead of field_name
-                field_value: true
-            })
-          })
-           .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
+      	fetch("https://manychat-hd-proxy-server-1.onrender.com/track-click", { // Replace with your actual Render URL
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ subscriber_id: subscriberId })
         })
+        .then(response => response.json())
         .then(data => {
             console.log("Tracked Click:", data);
-            window.location.href = nextPage; // Redirect after tracking
+            window.location.href = nextPage;
         })
         .catch(error => {
             console.error("Error:", error);
-            window.location.href = nextPage; // Redirect even if tracking fails
+            window.location.href = nextPage;
         });
-      } else {
-          console.error("No subscriber ID found!");
-          window.location.href = nextPage; // Redirect if no subscriber ID is available
-      }
+    } else {
+        console.error("No subscriber ID found!");
+        window.location.href = nextPage;
+    }
   });
 </script>
 
