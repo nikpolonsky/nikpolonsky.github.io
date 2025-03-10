@@ -318,7 +318,7 @@ show_header: false
       const nextPage = this.href; // Store the original link
 
       if (subscriberId) {
-      	fetch("https://manychat-hd-proxy-server-1.onrender.com/track-click", { // Replace with your actual Render URL
+      	fetch("https://manychat-hd-proxy-server-1.onrender.com/track-click", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
