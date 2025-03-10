@@ -319,26 +319,32 @@ show_header: false
 
       if (subscriberId) {
           fetch('https://api.manychat.com/fb/subscriber/setCustomField', {
-              method: 'POST',
+              method: "POST",
               headers: {
-                  'Authorization': 'Bearer 2577614:4ddeac4030586e0ed4ef8202dca75a3e',
-                  'Content-Type': 'application/json'
+              	  "accept": "application/json",
+                  "Authorization": "Bearer 2577614:4ddeac4030586e0ed4ef8202dca75a3e",
+                  "Content-Type": "application/json"
               },
               body: JSON.stringify({
-                  subscriber_id: subscriberId,  
-                  field_id: 12638613, // proceed_to_landing_from_funnel2
-                  field_value: true
-              })
+                subscriber_id: parseInt(subscriberId), // Ensure it's a number
+                field_id: 12638613, // Use field_id instead of field_name
+                field_value: true
+            })
           })
-          .then(response => response.json())
-          .then(data => {
-              console.log('Tracked Click:', data);
-              window.location.href = nextPage; // Redirect after tracking
-          })
-          .catch(error => {
-              console.error('Error:', error);
-              window.location.href = nextPage; // Redirect even if tracking fails
-          });
+           .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Tracked Click:", data);
+            window.location.href = nextPage; // Redirect after tracking
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            window.location.href = nextPage; // Redirect even if tracking fails
+        });
       } else {
           console.error("No subscriber ID found!");
           window.location.href = nextPage; // Redirect if no subscriber ID is available
