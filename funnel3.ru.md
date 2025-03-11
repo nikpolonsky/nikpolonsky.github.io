@@ -259,7 +259,7 @@ show_header: false
         </div>
         <div class="form-group" style="text-align: left;">
             <label>
-                <input class="checkbox-inline" type="checkbox" id="agree" name="agree" required>Я даю согласие на обработку своих персональных данных
+                <input type="checkbox" id="agree" name="agree" required>Я даю согласие на обработку своих персональных данных
             </label>
         </div>
         <div class="button-container">
@@ -289,9 +289,9 @@ document.getElementById('consultation-form').addEventListener('submit', function
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            alert("Заявка отправлена!");
+            alert("Получил! До связи");
         } else {
-            alert("Ошибка: " + data.error);
+            alert("Что-то пошло не так" + data.error);
         }
     })
     .catch(error => {
