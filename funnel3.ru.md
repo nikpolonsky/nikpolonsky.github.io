@@ -257,10 +257,8 @@ show_header: false
         <div class="form-group">
             <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
         </div>
-        <div class="form-group" style="display: flex; align-items: left;">
-            <label>
-                <input type="checkbox" id="agree" name="agree" required>Я даю согласие на обработку своих персональных данных
-            </label>
+        <div class="form-note">
+            <p>Нажимая на кнопу, я даю согласие на обработку своих персональных данных</p>
         </div>
         <div class="button-container">
             <button type="submit" class="button">Отправить</button>
