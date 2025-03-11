@@ -271,9 +271,9 @@ document.getElementById('consultation-form').addEventListener('submit', function
     };
 
     // Отправляем данные на сервер
-    fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+    fetch("https://manychat-hd-proxy-server-1.onrender.com/submit-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
     })
     .then(response => response.json())
