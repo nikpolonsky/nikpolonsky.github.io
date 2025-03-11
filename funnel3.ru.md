@@ -28,13 +28,10 @@ show_header: false
 
 Помоги себе, как родителю, получать максимум кайфа от взаимодействия с ребенком.
 
-<!-- <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
-</div>
- -->
 <div class="button-container">
     <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
+
 ### Родительство - это не просто
 
 Если у твоего ребенка чётное количество глаз и ушей, то ты уже отлично справляешься.
@@ -72,7 +69,7 @@ show_header: false
 А я помогу тебе перевести всю глубину этого знания в набор простых и понятных рекомендаций для каждого дня.
 
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
 
 ### Что происходит на консультации?
@@ -115,7 +112,7 @@ show_header: false
 Если жизнь - это движение, то принятие решений - это способ навигации. Принятие решений, основанное на внутреннем авторитете, обеспечит для ребенка оптимальную жизненную траекторию. На которой он встретит правильных для себя союзников, будет оказываться в подходящее время в подходящем месте и сможет максимально реализоваться.
 
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
 
 ### Шаг 3. Разбор Определенностей
@@ -141,7 +138,7 @@ show_header: false
 Мы разберём, как научить его использовать свои открытости с пользой и не терять себя в чужих "программах".
 
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
 
 ### Шаг 5. Разбор Профиля
@@ -202,7 +199,7 @@ show_header: false
 Сама консультация проходит онлайн и длится 2-3 часа. При желании, можем разбить на 2 сессии.
 Если ты в Берлине, то я предпочитаю встречи вживую.
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
 
 ### После завершения
@@ -249,7 +246,7 @@ show_header: false
 Подумай об этом на досуге)
 
 <div class="button-container">
-    <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
 </div>
 
 
