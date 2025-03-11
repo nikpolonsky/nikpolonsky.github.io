@@ -287,7 +287,7 @@ document.getElementById('consultation-form').addEventListener('submit', function
     
     const subscriberId = getSubscriberId();
     if (subscriberId) {
-        formData.append('subscriberId', subscriberId);
+        formData.subscriberId = subscriberId;
     }
 
     fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
