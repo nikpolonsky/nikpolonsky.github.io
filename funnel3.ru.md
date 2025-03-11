@@ -249,13 +249,37 @@ show_header: false
     <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
 
-<form id="consultation-form">
+<button onclick="openPopup()">Записаться на консультацию</button>
+
+<div id="popup-form" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h2>Записаться на консультацию</h2>
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Ваш телефон" required>
+        <button type="submit">Отправить</button>
+    </div>
+</div>
+
+<script>
+    function openPopup() {
+        document.getElementById("popup-form").style.display = "flex";
+    }
+
+    function closePopup() {
+        document.getElementById("popup-form").style.display = "none";
+    }
+
+</script>
+
+<!-- sdfds -->
+<!-- <form id="consultation-form">
     <input type="text" name="name" placeholder="как к тебе обращаться" required>
     <input type="text" name="contact" placeholder="контакт в Telegram / WhatsApp" required>
     <input type="text" name="social" placeholder="Профиль в какой-нибудь соц. сети">
     <button type="submit">Оставить заявку</button>
 </form>
-
+ -->
 <script>
 document.getElementById('consultation-form').addEventListener('submit', function(event) {
     event.preventDefault();
