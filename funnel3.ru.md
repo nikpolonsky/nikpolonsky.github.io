@@ -258,7 +258,7 @@ show_header: false
             <label for="social">Профиль в соцсети</label>
             <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="text-align: left;">
             <label>
                 <input type="checkbox" name="consent" required> Я даю согласие на обработку персональных данных
             </label>
