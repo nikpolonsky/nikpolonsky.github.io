@@ -28,10 +28,13 @@ show_header: false
 
 Помоги себе, как родителю, получать максимум кайфа от взаимодействия с ребенком.
 
-<div class="button-container">
+<!-- <div class="button-container">
     <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
-
+ -->
+<div class="button-container">
+    <a href="#" class="button" id="scroll-to-form">Записаться на консультацию</a>
+</div>
 ### Родительство - это не просто
 
 Если у твоего ребенка чётное количество глаз и ушей, то ты уже отлично справляешься.
@@ -286,6 +289,20 @@ document.getElementById('consultation-form').addEventListener('submit', function
     .catch(error => {
         console.error("Ошибка соединения:", error);
         alert("Ошибка соединения");
+    });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollButton = document.getElementById("scroll-to-form");
+    scrollButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        const form = document.getElementById("consultation-form");
+        form.scrollIntoView({
+            behavior: "smooth", 
+            block: "start"
+        });
     });
 });
 </script>
