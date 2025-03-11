@@ -247,49 +247,31 @@ show_header: false
 
 <div class="consultation-form-container">
     <form id="consultation-form">
-        <h2>Записаться на консультацию</h2>
+        <h2>Форма заявки на консультацию</h2>
         <div class="form-group">
-            <label for="name">Имя</label>
-            <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+            <input type="text" id="name" name="name" required placeholder="как к тебе обращаться">
         </div>
         <div class="form-group">
-            <label for="contact">Контакт</label>
-            <input type="text" id="contact" name="contact" required placeholder="Введите ваш контакт">
+            <input type="text" id="contact" name="contact" required placeholder="ссылка на твой профиль в соцсети">
         </div>
-        <!-- Поле для соцсети -->
         <div class="form-group">
             <label for="social">Профиль в соцсети</label>
-            <input type="text" id="social" name="social" required placeholder="Ваш профиль в соцсети">
+            <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
         </div>
-        <!-- Согласие на обработку данных -->
         <div class="form-group">
             <label>
-                <input type="checkbox" name="consent" required> Я согласен на обработку персональных данных
+                <input type="checkbox" name="consent" required> Я даю согласие на обработку персональных данных
             </label>
         </div>
-        <!-- Кнопка отправки -->
         <div class="button-container">
             <button type="submit" class="button">Отправить</button>
         </div>
-        <!-- Текст после отправки -->
         <div class="form-message">
-            <p>Я скоро с вами свяжусь!</p>
-        </div>
-        <!-- Сноска о персональных данных -->
-        <div class="form-note">
-            <p>Нажимая "Отправить", вы соглашаетесь на обработку ваших персональных данных.</p>
+            <p>Я свяжусь с тобой в течение нескольких часов</p>
         </div>
     </form>
 </div>
-<!-- Форма на странице -->
 
-<!-- <form id="consultation-form">
-    <input type="text" id="name" name="name" placeholder="Имя">
-    <input type="text" id="contact" name="contact" placeholder="Контакт">
-    <input type="text" id="social" name="social" placeholder="Соцсеть">
-    <button type="submit">Отправить</button>
-</form>
- -->
 <script>
 document.getElementById('consultation-form').addEventListener('submit', function(event) {
     event.preventDefault(); 
@@ -300,8 +282,6 @@ document.getElementById('consultation-form').addEventListener('submit', function
         social: document.getElementById('social').value
     };
 
-    console.log("Отправляем данные:", formData);
-
     fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -309,7 +289,6 @@ document.getElementById('consultation-form').addEventListener('submit', function
     })
     .then(response => response.json())
     .then(data => {
-        console.log("Ответ сервера:", data);
         if (data.success) {
             alert("Заявка отправлена!");
         } else {
