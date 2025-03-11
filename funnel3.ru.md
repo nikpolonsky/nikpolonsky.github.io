@@ -248,3 +248,36 @@ show_header: false
 <div class="button-container">
     <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
+
+<form id="consultation-form">
+    <input type="text" name="name" placeholder="как к тебе обращаться" required>
+    <input type="text" name="contact" placeholder="контакт в Telegram / WhatsApp" required>
+    <input type="text" name="social" placeholder="Профиль в какой-нибудь соц. сети">
+    <button type="submit">Оставить заявку</button>
+</form>
+
+<script>
+document.getElementById('consultation-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    let formData = new FormData(this);
+    let message = `🚀 Новая заявка!\n\n👤 Имя: ${formData.get('name')}\n📞 Контакт: ${formData.get('contact')}\n🔗 Соцсеть: ${formData.get('social')}`;
+
+    fetch('https://api.telegram.org/bot7793375200:AAF98DyTbZTr9cSAWiWaTGXz1zS4zWQ9T-0/sendMessage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            chat_id: '68318576',
+            text: message
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.ok) {
+            alert("Заявка отправлена!");
+        } else {
+            alert("Ошибка при отправке.");
+        }
+    })
+    .catch(error => alert("Ошибка соединения"));
+});
+</script>
