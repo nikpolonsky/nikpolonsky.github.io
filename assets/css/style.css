@@ -123,11 +123,3 @@ body {
     margin-top: 20px;
 }
 
-/* Стили для согласия на обработку данных */
-.form-group input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-.checkbox{
-  display: inline-block;
-}
