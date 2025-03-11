@@ -252,38 +252,41 @@ show_header: false
 
 <!-- Форма на странице -->
 <form id="consultation-form">
-    <input type="text" name="name" placeholder="Ваше имя" required>
-    <input type="text" name="contact" placeholder="Ваш контакт (телефон/почта)" required>
-    <input type="text" name="social" placeholder="Профиль в соцсети" required>
-    <button type="submit">Отправить заявку</button>
+    <input type="text" id="name" name="name" placeholder="Имя">
+    <input type="text" id="contact" name="contact" placeholder="Контакт">
+    <input type="text" id="social" name="social" placeholder="Соцсеть">
+    <button type="submit">Отправить</button>
 </form>
-
 <script>
 document.getElementById('consultation-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Отменить стандартную отправку формы
-
-    // Собираем данные из формы
-    let formData = new FormData(this);
-    let data = {
-        name: formData.get('name'),
-        contact: formData.get('contact'),
-        social: formData.get('social')
+    event.preventDefault(); // Останавливаем стандартное поведение формы
+    
+    let formData = {
+        name: document.getElementById('name').value,
+        contact: document.getElementById('contact').value,
+        social: document.getElementById('social').value
     };
 
-    // Отправляем данные на сервер
-    fetch("https://manychat-hd-proxy-server-1.onrender.com/submit-form", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data)
+    console.log("Отправляем данные:", formData); // <-- Проверка в консоли
+
+    fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
     })
     .then(response => response.json())
     .then(data => {
+        console.log("Ответ сервера:", data); // <-- Проверка ответа сервера
         if (data.success) {
             alert("Заявка отправлена!");
         } else {
-            alert("Ошибка при отправке.");
+            alert("Ошибка: " + data.error);
         }
     })
-    .catch(error => alert("Ошибка соединения"));
+    .catch(error => {
+        console.error("Ошибка соединения:", error);
+        alert("Ошибка соединения");
+    });
 });
 </script>
+
