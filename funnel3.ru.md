@@ -255,7 +255,6 @@ show_header: false
             <input type="text" id="contact" name="contact" required placeholder="ссылка на твой профиль в соцсети">
         </div>
         <div class="form-group">
-            <label for="social">Профиль в соцсети</label>
             <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
         </div>
         <div class="form-group" style="text-align: left;">
