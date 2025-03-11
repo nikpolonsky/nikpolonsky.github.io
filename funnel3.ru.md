@@ -249,54 +249,36 @@ show_header: false
     <a href="{{ 'https://google.com' | absolute_url }}" class="button">Записаться на консультацию</a>
 </div>
 
-<button onclick="openPopup()">Записаться на консультацию</button>
 
-<div id="popup-form" class="popup">
-    <div class="popup-content">
-        <span class="close-btn" onclick="closePopup()">&times;</span>
-        <h2>Записаться на консультацию</h2>
-        <input type="text" placeholder="Ваше имя" required>
-        <input type="tel" placeholder="Ваш телефон" required>
-        <button type="submit">Отправить</button>
-    </div>
-</div>
-
-<script>
-    function openPopup() {
-        document.getElementById("popup-form").style.display = "flex";
-    }
-
-    function closePopup() {
-        document.getElementById("popup-form").style.display = "none";
-    }
-
-</script>
-
-<!-- sdfds -->
-<!-- <form id="consultation-form">
-    <input type="text" name="name" placeholder="как к тебе обращаться" required>
-    <input type="text" name="contact" placeholder="контакт в Telegram / WhatsApp" required>
-    <input type="text" name="social" placeholder="Профиль в какой-нибудь соц. сети">
-    <button type="submit">Оставить заявку</button>
+<!-- Форма на странице -->
+<form id="consultation-form">
+    <input type="text" name="name" placeholder="Ваше имя" required>
+    <input type="text" name="contact" placeholder="Ваш контакт (телефон/почта)" required>
+    <input type="text" name="social" placeholder="Профиль в соцсети" required>
+    <button type="submit">Отправить заявку</button>
 </form>
- -->
+
 <script>
 document.getElementById('consultation-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    let formData = new FormData(this);
-    let message = `🚀 Новая заявка!\n\n👤 Имя: ${formData.get('name')}\n📞 Контакт: ${formData.get('contact')}\n🔗 Соцсеть: ${formData.get('social')}`;
+    event.preventDefault(); // Отменить стандартную отправку формы
 
-    fetch('https://api.telegram.org/bot7793375200:AAF98DyTbZTr9cSAWiWaTGXz1zS4zWQ9T-0/sendMessage', {
+    // Собираем данные из формы
+    let formData = new FormData(this);
+    let data = {
+        name: formData.get('name'),
+        contact: formData.get('contact'),
+        social: formData.get('social')
+    };
+
+    // Отправляем данные на сервер
+    fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            chat_id: '68318576',
-            text: message
-        })
+        body: JSON.stringify(data)
     })
     .then(response => response.json())
     .then(data => {
-        if (data.ok) {
+        if (data.success) {
             alert("Заявка отправлена!");
         } else {
             alert("Ошибка при отправке.");
