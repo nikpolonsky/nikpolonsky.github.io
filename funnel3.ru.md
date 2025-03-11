@@ -259,7 +259,7 @@ show_header: false
         </div>
         <div class="form-group" style="text-align: left;">
             <label>
-                <input type="checkbox" id="agree" name="agree" required>Я даю согласие на обработку своих персональных данных
+                <input class="checkbox-inline" type="checkbox" id="agree" name="agree" required>Я даю согласие на обработку своих персональных данных
             </label>
         </div>
         <div class="button-container">
