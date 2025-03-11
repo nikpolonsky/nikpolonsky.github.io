@@ -268,7 +268,7 @@ show_header: false
             </label>
         </div>
         <!-- Кнопка отправки -->
-        <div class="form-group">
+        <div class="button-container">
             <button type="submit" class="button">Отправить</button>
         </div>
         <!-- Текст после отправки -->
