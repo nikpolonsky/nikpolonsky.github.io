@@ -270,6 +270,12 @@ show_header: false
 </div>
 
 <script>
+
+function getSubscriberId() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("subscriber_id");
+}
+
 document.getElementById('consultation-form').addEventListener('submit', function(event) {
     event.preventDefault(); 
     
@@ -278,6 +284,11 @@ document.getElementById('consultation-form').addEventListener('submit', function
         contact: document.getElementById('contact').value,
         social: document.getElementById('social').value
     };
+    
+    const subscriberId = getSubscriberId();
+    if (subscriberId) {
+        formData.append('subscriberId', subscriberId);
+    }
 
     fetch('https://manychat-hd-proxy-server-1.onrender.com/submit-form', {
         method: 'POST',
