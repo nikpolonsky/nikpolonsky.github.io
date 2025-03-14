@@ -324,7 +324,7 @@ show_header: false
 
       if (subscriberId) {
       	// Get the original link and append subscriber_id dynamically
-          let nextPage = "https://nikpolonsky.github.io/ru/child_development_analysis/"; // Base URL
+          let nextPage = "https://nikpolonsky.github.io/"; // Base URL
           nextPage += `?subscriber_id=${subscriberId}`; // Add subscriber_id to the URL
 
 
