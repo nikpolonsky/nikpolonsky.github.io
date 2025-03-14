@@ -2,7 +2,7 @@
 layout: page
 title: ""
 permalink: /
-lang: ru
+lang: en
 show_header: false
 ---
 
