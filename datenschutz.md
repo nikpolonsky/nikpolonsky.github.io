@@ -12,7 +12,7 @@ Der Schutz Ihrer persönlichen Daten ist uns sehr wichtig. In dieser Datenschutz
 
  
 
-1/ Verantwortlicher für die Datenverarbeitung
+### 1/ Verantwortlicher für die Datenverarbeitung
 
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
  
@@ -28,7 +28,7 @@ Telefon: +49 176 42728553
 E-Mail: nik.polonsky.hd@gmail.com
  
 
-2/ Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung
+### 2/ Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung
 
  
 
@@ -102,7 +102,7 @@ Weitere Informationen zu den Nutzungsbedingungen und zum Datenschutz von Google 
 
  
 
-3/ Social Media Links
+### 3/ Social Media Links
 
  
 
@@ -110,7 +110,7 @@ Auf unserer Website finden Sie Links zu unserem Social Media-Profil bei Instagra
 
  
 
-4. Weitergabe von Daten
+### 4/ Weitergabe von Daten
 
  
 
@@ -128,7 +128,7 @@ Eine Übermittlung Ihrer persönlichen Daten an Dritte findet nur unter folgende
 
  
 
-5. Betroffenenrechte
+### 5/ Betroffenenrechte
 
  
 
@@ -152,7 +152,7 @@ Sie haben das Recht:
 
  
 
-6. Widerspruchsrecht
+### 6/ Widerspruchsrecht
 
  
 
@@ -160,7 +160,7 @@ Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen ge
 
  
 
-7. Datensicherheit
+### 7/ Datensicherheit
 
  
 
@@ -168,7 +168,7 @@ Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secur
 
  
 
-8. Aktualität und Änderung dieser Datenschutzerklärung
+### 8/ Aktualität und Änderung dieser Datenschutzerklärung
 
  
 
@@ -176,7 +176,7 @@ Diese Datenschutzerklärung ist aktuell gültig und hat den Stand März, 2025. D
 
 ​
 
-9. Cookies
+### 9/ Cookies
 
  
 
@@ -192,7 +192,7 @@ Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies i
 
  
 
-10. Verwendung von Instagram-Plugins
+### 10/ Verwendung von Instagram-Plugins
 
  
 
@@ -204,7 +204,7 @@ Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagr
 
  
 
-11. Externe Links
+### 11/ Externe Links
 
  
 
@@ -212,7 +212,7 @@ Unsere Website kann Links zu externen Websites enthalten, auf deren Inhalte wir 
 
  
 
-12. Widerspruch gegen Werbe-Mails
+### 12/ Widerspruch gegen Werbe-Mails
 
  
 
@@ -220,7 +220,7 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten z
 
  
 
-13. Aktualität und Änderung dieser Datenschutzerklärung
+### 13/ Aktualität und Änderung dieser Datenschutzerklärung
 
  
 
