@@ -12,7 +12,7 @@ Der Schutz Ihrer persönlichen Daten ist uns sehr wichtig. In dieser Datenschutz
 
  
 
-1. Verantwortlicher für die Datenverarbeitung
+1/ Verantwortlicher für die Datenverarbeitung
 
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
  
@@ -28,7 +28,7 @@ Telefon: +49 176 42728553
 E-Mail: nik.polonsky.hd@gmail.com
  
 
-2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung
+2/ Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung
 
  
 
@@ -102,7 +102,7 @@ Weitere Informationen zu den Nutzungsbedingungen und zum Datenschutz von Google 
 
  
 
-3. Social Media Links
+3/ Social Media Links
 
  
 
@@ -224,4 +224,4 @@ Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten z
 
  
 
-Diese Datenschutzerklärung ist aktuell gültig und hat den Stand [März, 2025]. Durch die Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf unserer Website unter https://nikpolonsky.github.io/datenschutz/ von Ihnen abgerufen und ausgedruckt werden.
+Diese Datenschutzerklärung ist aktuell gültig und hat den Stand März, 2025. Durch die Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf unserer Website unter https://nikpolonsky.github.io/datenschutz/ von Ihnen abgerufen und ausgedruckt werden.
