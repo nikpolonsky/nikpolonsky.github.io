@@ -268,5 +268,3 @@ show_header: false
         </div>
     </form>
 </div>
-
-{% include main_landing_script.html %}
