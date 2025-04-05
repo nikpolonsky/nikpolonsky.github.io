@@ -32,8 +32,34 @@ show_header: false
 
 ### Записаться
 Кнопка ниже направит тебя прямиком на форму заявки
+
 <div class="button-container">
-    <a href="{{ 'https://nikpolonsky.github.io#consultation-form' | absolute_url }}" 
-       class="button" 
-       id="track-click">Записаться</a>
+    <a href="#" class="button" id="track-click">Оставить заявку</a>
 </div>
+
+<script>
+  // Function to get the subscriber_id from the URL
+  function getSubscriberId() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("subscriber_id");
+  }
+
+  document.getElementById('track-click').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const subscriberId = getSubscriberId();
+    const baseUrl = "https://nikpolonsky.github.io/";
+    const anchor = "#consultation-form";
+
+    let nextPage = baseUrl;
+
+    if (subscriberId) {
+      nextPage += `?subscriber_id=${subscriberId}${anchor}`;
+    } else {
+      nextPage += anchor;
+    }
+
+    window.location.href = nextPage;
+  });
+</script>
+
