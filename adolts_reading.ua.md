@@ -11,6 +11,7 @@ show_header: false
 ### Бонус за скептицизм
 
 Убедись на себе, что Дизайн Человека работает.
+
 Получи полный разбор своей карты + 30% скидка на разбор карты ребёнка.
 
 ### Зачем это мне?
@@ -32,7 +33,7 @@ show_header: false
 ### Записаться
 Кнопка ниже направит тебя прямиком на форму заявки
 <div class="button-container">
-    <a href="{{ 'https://nikpolonsky.github.io/child_development_analysis#consultation-form' | absolute_url }}" 
+    <a href="{{ 'https://nikpolonsky.github.io/ru/child_development_analysis#consultation-form' | absolute_url }}" 
        class="button" 
        id="track-click">Записаться</a>
 </div>
