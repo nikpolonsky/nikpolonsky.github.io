@@ -269,13 +269,13 @@ Think about it at your leisure)
             <input type="text" id="name" name="name" required placeholder="your name">
         </div>
         <div class="form-group">
-            <input type="text" id="contact" name="contact" required placeholder="link to your profile on social media">
+            <input type="text" id="contact" name="contact" required placeholder="link to your profile in social media">
         </div>
         <div class="form-group">
             <input type="text" id="social" name="social" required placeholder="phone number to conctact in whatsapp or nik name in telegram ">
         </div>
         <div class="form-note">
-            <p>By clicking the button, I agree to the processing of my personal data</p>
+            <p>By clicking the <b>Submit</b> button, I agree to the processing of my personal data</p>
         </div>
         <div class="button-container">
             <button type="submit" class="button">Submit</button>
