@@ -90,7 +90,9 @@ But still, there is some structure:
 ![Alt text](/assets/images/funnel3/funnel3_2.png){: .img}
 
 We begin by understanding the basic elements of the chart: what Centers, Channels, Definitions, and Openness are.
+
 What you'll learn:
+
 — How each part of the chart works and what it means for your child.
 
 
