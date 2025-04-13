@@ -114,7 +114,7 @@ Different people have different ways.
 
 **What does good contact with your inner authority provide?**
 
-![Alt text](/assets/images/{{ page.lang }}/funnel3/funnel3_4.png){: .img}
+![Alt text](/assets/images/funnel3/{{ page.lang }}/funnel3_4.png){: .img}
 
 If life is movement, then decision-making is a method of navigation. Decision-making based on inner authority will provide the optimal life trajectory for the child. One where they will meet the right allies, be in the right place at the right time, and be able to fulfill themselves maximally.
 
@@ -164,7 +164,7 @@ It's a unique perspective in which the child:
 
 Profile is like a role in a game. Some children like to be "researchers" (observe, analyze), others - "experimenters" (act, try, make mistakes). These roles are visible in everyday life: in games, studies, communication.
 
-![Alt text](/assets/images/{{ page.lang }}/funnel3/funnel3_5.png){: .img}
+![Alt text](/assets/images/funnel3/{{ page.lang }}/funnel3_5.png){: .img}
 
 Understanding your child's profile will help:
 
