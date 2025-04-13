@@ -6,7 +6,8 @@ lang: en
 show_header: false
 ---
 
-![Alt text](/assets/images/funnel3/funnel3_banner.png){: .img}
+![Alt text](/assets/images/{{ page.lang }}/funnel3/funnel3_banner.png){: .img}
+<!-- ![Alt text](/assets/images/funnel3/funnel3_banner.png){: .img} -->
 
 ### Upbringing and care based on understanding your child's unique nature
 
