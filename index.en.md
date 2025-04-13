@@ -8,65 +8,69 @@ show_header: false
 
 ![Alt text](/assets/images/funnel3/funnel3_banner.png){: .img}
 
-### Воспитание и забота, основанные на понимании уникальной природы твоего ребёнка
+### Upbringing and care based on understanding your child's unique nature
 
-Получи подробный разбор карты уникальности своего ребенка:
-- какие условия помогают ребенку развиваться, а какие — мешают
-- как его природные таланты проявляются в быту
-- как проще находить с ним общий язык
+Get a detailed analysis of your child's uniqueness map:
+- what conditions help your child develop, and which ones hinder
+- how their natural talents manifest in everyday life
+- how to find common ground with them more easily
 
-Узнай, как простыми шагами создать для него поддерживающую среду,
-которая поможет:
-- раскрыться
-- справляться с вызовами
-- сохранять аутентичность и контакт с собой
+Learn how simple steps can create a supportive environment for them,
+which will help:
+- unfold their potential
+- cope with challenges
+- maintain authenticity and self-connection
 
-Мои рекомендации основаны на многолетнем опыте анализа Дизайна Человека
-и опыте воспитания дочери.
+My recommendations are based on years of experience analyzing Human Design
+and my experience raising a daughter.
 
-Помоги своему ребенку расти счастливым и уверенным в себе.
+Help your child grow happy and confident.
 
-Помоги себе, как родителю, получать максимум кайфа от взаимодействия с ребенком.
+Help yourself, as a parent, get maximum enjoyment from interacting with your child.
 
 <div class="button-container">
-    <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
+    <a href="#consultation-form" class="button" id="scroll-to-form">Schedule a consultation</a>
 </div>
 
-### Родительство - это не просто
+### Parenting is not simple
 
-Если у твоего ребенка чётное количество глаз и ушей, то ты уже отлично справляешься.
+If your child has an even number of eyes and ears, you're already doing great.
 
-Но всё равно иногда возникают эти червячки в голове:
-- я — плохая мать/отец, я делаю что-то не так или недостаточно
-- эта черта моего ребенка — это нормально? Может, надо что-то с этим делать?
-- сложно понять, что с ним происходит
-- как наладить взаимодействие, чтобы оно подходило нам обоим и не выматывало?
-- воспитатель настаивает на своем методе, но я чувствую — это не подходит моему ребенку. 
-- как совмещать работу и воспитание, когда соцсети показывают идеальных родителей с простыми рецептами, а в реальности у тебя не 6 рук и нет нянь или бабушек под боком?
-- как подготовить ребенка к жизни в постоянно меняющемся мире?
-- как научить его доверять себе?
+But still, sometimes those little doubts creep in:
+
+- I'm a bad mother/father,
+- I'm doing something wrong or not enough 
+- Is this trait of my child normal? Maybe I should do something about it?
+- It's hard to understand what's happening with them
+- How to establish interaction that suits both of us and doesn't drain us?
+- The teacher insists on their method, but I feel it doesn't suit my child
+- How to balance work and parenting when social media shows perfect parents with simple recipes, but in reality, you don't have 6 hands and no nannies or grandmothers nearby?
+- How to prepare your child for life in a constantly changing world?
+- How to teach them to trust themselves?
+
 
 ![Alt text](/assets/images/funnel3/funnel3_1.png){: .img}
 
-### Знакомо?
-Родительство — это не только радость, но и вызовы.
-Но с помощью Дизайна Человека ты можешь:
+### Sounds familiar?
+Parenting is not only joy but also challenges.
 
-- лучше понять своего ребенка
-- найти подход, который подходит именно ему
-- создать гармоничную среду для его развития
-- наслаждаться родительством, а не выгорать
+But with Human Design, you can:
 
-### Дизайн Человека - это знание для детей
+- better understand your child
+- find an approach that suits them specifically
+- create a harmonious environment for their development
+- enjoy parenting instead of burning out
 
-Оно может дать исчерпывающий ответ на вопрос "Кто твой ребенок?"
+### Human Design is knowledge for children
 
-- каков его потенциал?
-- в чём его дары, таланты, внутренние вызовы?
-- какова природа его энергии?
-- его стиль взаимодействия с миром?
+It can give a comprehensive answer to the question "Who is your child?"
 
-А я помогу тебе перевести всю глубину этого знания в набор простых и понятных рекомендаций для каждого дня.
+- what is their potential?
+- what are their gifts, talents, internal challenges?
+- what is the nature of their energy?
+- their style of interacting with the world?
+
+And I will help you translate all the depth of this knowledge into a set of simple and clear recommendations for every day.
 
 <div class="button-container">
     <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
