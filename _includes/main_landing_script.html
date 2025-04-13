@@ -30,7 +30,8 @@
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    alert("Получил! До связи");
+                    // alert("Получил! До связи");
+                    alert("{{ site.data[page.lang].message.main_script.received | escape }}");
                 } else {
                     alert("Что-то пошло не так: " + data.error);
                 }
