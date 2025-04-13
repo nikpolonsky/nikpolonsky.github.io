@@ -6,7 +6,7 @@ lang: ua
 show_header: false
 ---
 
-![Alt text](/assets/images/funnel3/funnel3_banner.png){: .img}
+![Alt text](/assets/images/funnel3/{{ page.lang }}/funnel3_banner.png){: .img}
 
 ### Воспитание и забота, основанные на понимании уникальной природы твоего ребёнка
 
