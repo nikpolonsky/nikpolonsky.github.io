@@ -246,28 +246,3 @@ show_header: false
 Подумай об этом на досуге)
 
 {% include consultation_form.html form=site.data.ru.message.form %}
-
-
-<!-- <div class="consultation-form-container">
-    <form id="consultation-form">
-        <h2>Форма заявки на консультацию</h2>
-        <div class="form-group">
-            <input type="text" id="name" name="name" required placeholder="как к тебе обращаться">
-        </div>
-        <div class="form-group">
-            <input type="text" id="contact" name="contact" required placeholder="ссылка на твой профиль в соцсети">
-        </div>
-        <div class="form-group">
-            <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
-        </div>
-        <div class="form-note">
-            <p>Нажимая на кнопку, я даю согласие на обработку своих персональных данных</p>
-        </div>
-        <div class="button-container">
-            <button type="submit" class="button">Отправить</button>
-        </div>
-        <div class="form-message">
-            <p>Я свяжусь с тобой в течение нескольких часов</p>
-        </div>
-    </form>
-</div> -->

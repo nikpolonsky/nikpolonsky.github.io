@@ -4,9 +4,9 @@ main_script:
 
 form:
   title: "Форма заявки на консультацию"
-  name_placeholder: "як до тебе звертатися"
-  contact_placeholder: "посилання на твій профіль у соцмережі"
-  social_placeholder: "номер для зв'язку у WhatsApp або нік у Telegram"
-  privacy_note: "Натискаючи кнопку, я даю згоду на обробку своїх персональних даних"
-  submit: "Відправити"
-  confirmation: "Я зв'яжуся з тобою протягом кількох годин"
+  name_placeholder: "как к тебе обращаться"
+  contact_placeholder: "ссылка на твой профиль в соцсети"
+  social_placeholder: "номер для связи в whatsapp или ник в telegram"
+  privacy_note: "Нажимая на кнопку, я даю согласие на обработку своих персональных данных"
+  submit: "Отправить"
+  confirmation: "Я свяжусь с тобой в течение нескольких часов"

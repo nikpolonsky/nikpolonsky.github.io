@@ -246,26 +246,4 @@ show_header: false
 
 Подумай про це на дозвіллі)
 
-<div class="consultation-form-container">
-    <form id="consultation-form">
-        <h2>Форма заявки на консультацію</h2>
-        <div class="form-group">
-            <input type="text" id="name" name="name" required placeholder="як для тебе звертатись">
-        </div>
-        <div class="form-group">
-            <input type="text" id="contact" name="contact" required placeholder="посилання на твій профіль у соц. мережі">
-        </div>
-        <div class="form-group">
-            <input type="text" id="social" name="social" required placeholder="номер для звʼязку у whatsapp або нік у telegram">
-        </div>
-        <div class="form-note">
-            <p>Натискаючи на кнопку, я погоджуюсь на обробку своїх персональних даних</p>
-        </div>
-        <div class="button-container">
-            <button type="submit" class="button">Відпривити</button>
-        </div>
-        <div class="form-message">
-            <p>Я напишу тобі впродовж кількох годин</p>
-        </div>
-    </form>
-</div>
+{% include consultation_form.html form=site.data.ua.message.form %}

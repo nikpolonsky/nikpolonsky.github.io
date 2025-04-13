@@ -263,26 +263,5 @@ After all, children are the most precious thing we have. And if there's an optio
 
 Think about it at your leisure)
 
-<div class="consultation-form-container">
-    <form id="consultation-form">
-        <h2>Application form</h2>
-        <div class="form-group">
-            <input type="text" id="name" name="name" required placeholder="your name">
-        </div>
-        <div class="form-group">
-            <input type="text" id="contact" name="contact" required placeholder="link to your profile in social media">
-        </div>
-        <div class="form-group">
-            <input type="text" id="social" name="social" required placeholder="phone number to conctact in whatsapp or nik name in telegram ">
-        </div>
-        <div class="form-note">
-            <p>By clicking the <b>Submit</b> button, I agree to the processing of my personal data</p>
-        </div>
-        <div class="button-container">
-            <button type="submit" class="button">Submit</button>
-        </div>
-        <div class="form-message">
-            <p>I'll reach out to you in few hours</p>
-        </div>
-    </form>
-</div>
+{% include consultation_form.html form=site.data.en.message.form %}
+
