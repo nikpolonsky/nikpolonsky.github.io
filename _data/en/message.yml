@@ -1,3 +1,12 @@
 main_script:
   received: "Got it. Keep in touch"
   warning: "Something went wrong: "
+
+form:
+  title: "Application form"
+  name_placeholder: "як до тебе звертатися"
+  contact_placeholder: "посилання на твій профіль у соцмережі"
+  social_placeholder: "номер для зв'язку у WhatsApp або нік у Telegram"
+  privacy_note: "Натискаючи кнопку, я даю згоду на обробку своїх персональних даних"
+  submit: "Відправити"
+  confirmation: "Я зв'яжуся з тобою протягом кількох годин"

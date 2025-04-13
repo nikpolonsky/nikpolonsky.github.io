@@ -245,7 +245,10 @@ show_header: false
 
 Подумай об этом на досуге)
 
-<div class="consultation-form-container">
+{% include consultation_form.html form=site.data[page.lang].message.form %}
+
+
+<!-- <div class="consultation-form-container">
     <form id="consultation-form">
         <h2>Форма заявки на консультацию</h2>
         <div class="form-group">
@@ -267,4 +270,4 @@ show_header: false
             <p>Я свяжусь с тобой в течение нескольких часов</p>
         </div>
     </form>
-</div>
+</div> -->
