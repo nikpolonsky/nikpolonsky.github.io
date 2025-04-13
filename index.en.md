@@ -73,202 +73,215 @@ It can give a comprehensive answer to the question "Who is your child?"
 And I will help you translate all the depth of this knowledge into a set of simple and clear recommendations for every day.
 
 <div class="button-container">
-    <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
+    <a href="#consultation-form" class="button" id="scroll-to-form">Schedule a consultation</a>
 </div>
 
-### Что происходит на консультации?
+### What happens during the consultation?
 
-Вообще говоря, описывать такой процесс - только удовольствие портить. Потому что каждая сессия получается особенной. В зависимости от карты ребенка я делаю акценты на разные вещи. К тебе, родителю, я обращаюсь, учитывая оптимальный для тебя способ восприятия информации.
+Generally speaking, describing such a process is only pleasure-spoiling. Because each session turns out special. Depending on the child's chart, I emphasize different things. I address you, the parent, considering the optimal way for you to perceive information.
 
-Короче, это - искусство, и оно пока не алгоритмизируется.
+In short, it's an art, and it cannot yet be algorithmized.
 
-Но все же есть некая структура:
+But still, there is some structure:
 
-### Шаг 1. Введение в бодиграф (карту) и основы Дизайна Человека
+### Step 1. Introduction to the bodygraph (chart) and basics of Human Design
 
 ![Alt text](/assets/images/funnel3/funnel3_2.png){: .img}
 
-Мы начинаем с того, чтобы разобраться в базовых элементах карты: что такое Центры, Каналы, Определённости и Открытости.
-Что ты узнаешь:
-— Как работает каждая часть карты и что она значит для твоего ребёнка.
+We begin by understanding the basic elements of the chart: what Centers, Channels, Definitions, and Openness are.
+What you'll learn:
+— How each part of the chart works and what it means for your child.
 
-### Шаг 2. Тип и Внутренний Авторитет
 
-**Тип** — это ключ к пониманию энергетической природы ребёнка.
-Всего типов 4: Манифестор, Генератор, Проектор и Рефлектор.
-На вид не скажешь, но люди разных типов отличаются друг от друга больше, чем мужчина от женщины.
-Разные Типы - как разные авто: бывают на электрике, дизеле или бензине. Бывают гоночные, городские или внедорожники. И никто не будет заправлять дизельную машину бензином, хотя технически она и сможет ехать. Ехать с низким клиренсом по грунтовке можно - но это тоже не лучшая идея.
+### Step 2. Type and Inner Authority
+
+**Type** is the key to understanding your child's energetic nature.
+There are 4 types in total: Manifestor, Generator, Projector, and Reflector.
+You can't tell by looking, but people of different types differ from each other more than a man from a woman.
+Different Types are like different cars: they can be electric, diesel, or gasoline. They can be racing cars, city cars, or SUVs. And no one would fuel a diesel car with gasoline, although technically it could drive. Driving with low clearance on dirt roads is possible - but that's not the best idea either.
+
 
 ![Alt text](/assets/images/funnel3/funnel3_3.png){: .img}
 
-Аналогично для каждого Типа есть подходящий именно для него способ обращения, просто в случае с людьми он не так очевиден.
-Понимание Типа важно для организации режима дня, подбора активностей, выстраивания границ и выбора стиля общения с ребенком.
+Similarly, for each Type, there is a suitable way of treatment specifically for them, just in the case of people, it's not so obvious.
+Understanding Type is important for organizing daily routines, selecting activities, setting boundaries, and choosing a communication style with the child.
 
-**Внутренний Авторитет** — это способ принимать решения, слушая себя, а не чужие советы.
-У разных людей эти способы разные. 
+**Inner Authority** is a way to make decisions by listening to yourself, not to others' advice.
+Different people have different ways.
 
-> Пример: у ребёнка с эмоциональным авторитетом есть регулярные перепады настроения. Его полезно научить не принимать спонтанных решений.
+> Example: a child with emotional authority experiences regular mood swings. It's helpful to teach them not to make spontaneous decisions.
 
-**Что дает хороший контакт со своим внутренним авторитетом?**
+**What does good contact with your inner authority provide?**
 
 ![Alt text](/assets/images/funnel3/funnel3_4.png){: .img}
 
-Если жизнь - это движение, то принятие решений - это способ навигации. Принятие решений, основанное на внутреннем авторитете, обеспечит для ребенка оптимальную жизненную траекторию. На которой он встретит правильных для себя союзников, будет оказываться в подходящее время в подходящем месте и сможет максимально реализоваться.
+If life is movement, then decision-making is a method of navigation. Decision-making based on inner authority will provide the optimal life trajectory for the child. One where they will meet the right allies, be in the right place at the right time, and be able to fulfill themselves maximally.
 
 <div class="button-container">
-    <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
+    <a href="#consultation-form" class="button" id="scroll-to-form">Schedule a consultation</a>
 </div>
 
-### Шаг 3. Разбор Определенностей
+### Step 3. Analysis of Definitions
 
 ![Alt text](/assets/images/funnel3/wheel.png){: .img}
 
-Это всё, что в карте закрашено. Эти качества — стабильны и надёжны, они всегда будут проявляться в характере ребёнка.
-Понимая все Определенности, ты сможешь понимать ребенка на другом уровне.
+These are all the colored parts in the chart.
+These qualities are stable and reliable; they will always manifest in your child's character.
+By understanding all Definitions, you'll be able to understand your child on another level.
 
-Пример:
-У моей дочки определен канал **Сохранения 27-50**. Людям с таким каналом свойственно проявление заботы об окружающих, а самый базовый способ заботы - это кормление.
-И когда я вижу, как дочь кайфует, кормя птиц, нас, друзей или поливает цветы, я знаю, что, такая её активность - это не только игра, но и проявление одной из глубинных граней её личности.
+Example:
+My daughter has a defined **Preservation Channel 27-50**.
+People with such a channel tend to show care for others, and the most basic way of caring is feeding.
+And when I see how my daughter enjoys feeding birds, us, friends, or watering plants, I know that such activity is not just play but also a manifestation of one of the deep facets of her personality.
 
-### Шаг 4. Разбор Открытостей
-Это всё, что в карте белое, то есть, не закрашенное.
+### Step 4. Analysis of Openness
+These are all the white, or uncolored, parts in the chart.
 
-Открытости - это зоны, где качества проявляются непостоянно и подвержены влиянию извне.
-Эти зоны легко «впитывают» настроения, мысли и энергии других людей.
+Openness refers to areas where qualities manifest inconsistently and are subject to external influence. These areas easily "absorb" the moods, thoughts, and energies of other people.
 
-Пример: ребёнок с открытым Эмоциональным центром считывает настроение семьи, как сканер, и начинает вести себя в унисон с окружающими.
+Example: a child with an open Emotional center reads the family's mood like a scanner and begins to behave in unison with those around them.
 
-Зная об Открытостях, ты можешь помочь развить в ребенке осознанность: где он настоящий, а где подвержен внешнему воздействию.
-Мы разберём, как научить его использовать свои открытости с пользой и не терять себя в чужих "программах".
+Knowing about Openness, you can help develop awareness in your child: where they are authentic and where they are subject to external influence.
+We'll discuss how to teach them to use their openness beneficially and not lose themselves in others' "programs."
 
 <div class="button-container">
-    <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
+    <a href="#consultation-form" class="button" id="scroll-to-form">Schedule a consultation</a>
 </div>
 
-### Шаг 5. Разбор Профиля
+### Step 5. Analysis of Profile
 
-Профиль - это стиль, в котором ребенок общается с миром.
+Profile is the style in which the child interacts with the world.
 
-Что такое профиль?
-Это уникальная перспектива, в которой ребенок:
+What is a profile?
+It's a unique perspective in which the child:
 
-- воспринимает окружающих («Как я вижу людей?»)
+- perceives others ("How do I see people?")
 
-- воспринимает себя в глазах других («Как они видят меня?»)
+- perceives themselves in the eyes of others ("How do they see me?")
 
-- выбирает способы учиться, дружить, решать задачи.
+- chooses ways to learn, make friends, solve problems.
 
-Профиль — как роль в игре. Одни дети любят быть «исследователями» (наблюдают, анализируют), другие — «экспериментаторами» (действуют, пробуют, ошибаются). Эти роли видны в повседневности: в играх, учебе, общении.
+Profile is like a role in a game. Some children like to be "researchers" (observe, analyze), others - "experimenters" (act, try, make mistakes). These roles are visible in everyday life: in games, studies, communication.
 
 ![Alt text](/assets/images/funnel3/funnel3_5.png){: .img}
 
-Понимание профиля ребенка поможет:
-- не ломать его природный стиль
-- подобрать ключи к обучению и общению, которые работают именно для него
+Understanding your child's profile will help:
 
-### Шаг 6. Краткий обзор твоей карты
-Дизайн Человека - это про то, чтобы помочь ребенку оставаться собой. И тебе будет непросто это сделать, если ты сам(а) будешь вести себя не естественно. 
-Вокруг столько "пропаганды" и "ролевых моделей" идеального родительства. 
-Кто-то с года таскает детей в походы или ставит на лыжи,
-кто-то упарывается по всевозможным "развивашкам", 
-кто-то играет с ребенком активней, чем сам ребенок, 
-а ещё кто-то контейнирует каждую эмоцию как терапевт с 20-летним стажем.
+- not to break their natural style
+- find keys to learning and communication that work specifically for them
+
+### Step 6. Brief overview of your chart
+Human Design is about helping your child remain themselves. And it will be difficult for you to do this if you yourself are not acting naturally.
+There's so much "propaganda" and "role models" of ideal parenting around.
+
+Some drag their children on hikes or put them on skis from age one,
+
+some are obsessed with all kinds of "developmental activities,"
+
+some play with their child more actively than the child themselves,
+
+and others contain every emotion like a therapist with 20 years of experience.
 
 ![Alt text](/assets/images/funnel3/funnel3_6.png){: .img}
 
-И это так привлекательно выглядит со стороны.
-Но ты не можешь и не должен(а) быть универсальным <s>солдатом</s>>родителем и воспроизводить все модели на себе.
-Поэтому мы обязательно анализируем и твою карту, чтобы понять, каким родителем для тебя быть естественно. 
+And it looks so attractive from the outside.
+But you cannot and should not be a universal <s>soldier</s>parent and reproduce all models on yourself.
+Therefore, we definitely analyze your chart as well to understand what kind of parent is natural for you to be.
 
-### Шаг 7. Как взаимодействуют карты родителя и ребенка
+### Step 7. How parent and child charts interact
 
-Мы смотрим, где ваши карты дополняют друг друга, а где могут быть точки напряжения. 
-Это поможет понять, как избежать конфликтов и строить отношения, где каждый остаётся собой.
+We look at where your charts complement each other and where there might be tension points.
+This helps understand how to avoid conflicts and build relationships where everyone remains themselves.
 
-
-### Конспект и материалы
+### Summary and materials
 
 ![Alt text](/assets/images/funnel3/funnel3_7.png){: .img}
 
-Ты получишь аудиозапись нашей беседы и инфографику с основными рекомендациями, которую можно повесить на холодильник или передать бабушке и няне.
+You'll receive an audio recording of our conversation and an infographic with the main recommendations that can be hung on the refrigerator or passed to grandmother and nanny.
 
-### Как проходит консультация?
+### How does the consultation process work?
 
-Сначала мы коротко созваниваемся на 10-15 минут. 
-Ты сможешь сформулировать конкретный запрос, если нужно. 
-Я позадаю вопросы, чтобы получить представление о твоей ситуации и контексте.
-Это важно, чтобы установить личный контакт, понять, подходим ли мы друг другу, и убедиться, что работа будет максимально эффективной. 
-Мы договораваемся о дате, ты делаешь предоплату, я начинаю подготовку (занимает 3-4 дня).
+First, we have a brief 10-15 minute call.
+You can formulate a specific request if needed.
+I'll ask questions to get an idea of your situation and context.
+This is important to establish personal contact, understand if we're a good fit for each other, and ensure that the work will be as effective as possible.
+We agree on a date, you make a prepayment, I begin preparation (takes 3-4 days).
 
-Сама консультация проходит онлайн и длится 2-3 часа. При желании, можем разбить на 2 сессии.
-Если ты в Берлине, то я предпочитаю встречи вживую.
+The consultation itself takes place online and lasts 2-3 hours. If desired, we can split it into 2 sessions.
+If you're in Berlin, I prefer in-person meetings.
 <div class="button-container">
-    <a href="#consultation-form" class="button" id="scroll-to-form">Записаться на консультацию</a>
+    <a href="#consultation-form" class="button" id="scroll-to-form">Schedule a consultation</a>
 </div>
 
-### После завершения
+### After completion
 
-консультации у тебя будет не только:
-- комплексное понимание ребенка на новом уровне
-- понимание механики твоего с ним взаимодействия
-- набор практичных советов как это учитывать в жизни
-- инфографика-конспект в формате А4
-- аудио-запись нашего разговора
+of the consultation, you will not only have:
+- comprehensive understanding of your child at a new level
+- understanding of the mechanics of your interaction with them
+- a set of practical advice on how to take this into account in life
+- an A4 format infographic summary
+- audio recording of our conversation
 
-Но и каша в голове, да, тоже может быть. 
-Обычно родителям требуется некоторое время, чтобы
-- переварить новое знание
-- интегрировать его в свою повседневность
+But also confusion in your head, yes, that can also happen.
+Parents usually need some time to
+
+- digest new knowledge
+- integrate it into their daily life
 
 ![Alt text](/assets/images/funnel3/funnel3_8.png){: .img}
 
-Это нормально и ожидаемо. Но начать применять новые знания ты сможешь сразу же. Маленькие дети быстро откликаются, когда обращаешься к их истинной природе, и ты сможешь это увидеть. 
-Растить ребенка с учетом его дизайна - это не телепорт в точку благодати. 
-Но дорога, своеого рода эль камино, которая занимает время, но каждый день дарит маленькие открытия.
+This is normal and expected. But you can start applying new knowledge right away. Young children respond quickly when you address their true nature, and you'll be able to see that.
+Raising a child considering their design is not a teleport to a point of grace.
+But a road, a kind of el camino, which takes time but gives small discoveries every day.
 
-### Отзывы
+### Reviews
 
 {% include reviews.html %}
 
-### Хочешь попробовать?
+### Want to try?
 
-Так сложилось, что у меня есть основная работа (я ж программист), поэтому моя пропускная способность ограничена. На данный момент я могу взять на консультацию не больше 6 человек в месяц. На апрель осталось всего 2 места. 
+As it happens, I have a main job (I'm a programmer), so my capacity is limited. At the moment, I can take no more than 6 people a month for consultation. Only 2 spots left for April.
 
-Сейчас стоимость такой консультации – всего **150 евро**, но последнее время спрос на мою работу начал быстро расти, и я вижу, какую ценность она имеет для родителей, как круто это меняет жизнь их детей. Поэтому я решил, что буду постепенно увеличивать стоимость, чтобы сохранить качество и внимание к каждому клиенту.
 
-По сути, сейчас у тебя есть 2 варианта: ты можешь просто закрыть эту страницу и пойти дальше по своим делам, это абсолютно нормально, никто от этого не умрёт. 
-Но важно понимать, что в таком случае ребенок будет расти, развиваться и жить просто “наугад”, как и 99% людей.
+Currently, the cost of such a consultation is just 150 euros, but lately, the demand for my work has begun to grow rapidly, and I see what value it has for parents, how amazingly it changes the lives of their children. Therefore, I decided that I will gradually increase the cost to maintain quality and attention to each client.
+
+
+Basically, you now have 2 options: you can simply close this page and go about your business, which is absolutely normal; no one will die from this.
+But it's important to understand that in this case, the child will grow, develop, and live just "at random," like 99% of people.
+
 
 ![Alt text](/assets/images/funnel3/funnel3_9.png){: .img}
 
-Либо же ты можешь один раз инвестировать 150 евро и получить полноценную дорожную карту, идя по которой твой ребёнок сможет реализовать весь свой потенциал на 100%. 
-По сути, это цена семейного ужина в хорошем ресторане. 
-Вот только ужин забудется уже через несколько дней, а тот актив, который предлагаю я, не забудется никогда)
+Or you can invest 150 euros once and get a full roadmap, following which your child will be able to realize their full potential 100%.
+Essentially, it's the price of a family dinner at a good restaurant.
+Only dinner will be forgotten in a few days, while the asset I offer will never be forgotten)
 
-В конце концов, дети – это самое дорогое, что у нас есть. И если есть вариант круто трансформировать жизнь своего ребёнка по цене похода в ресторан, то почему бы этим вариантом не воспользоваться. 
 
-Подумай об этом на досуге)
+After all, children are the most precious thing we have. And if there's an option to dramatically transform your child's life for the price of a restaurant visit, why not take advantage of this option.
+
+
+Think about it at your leisure)
 
 <div class="consultation-form-container">
     <form id="consultation-form">
-        <h2>Форма заявки на консультацию</h2>
+        <h2>Application form</h2>
         <div class="form-group">
-            <input type="text" id="name" name="name" required placeholder="как к тебе обращаться">
+            <input type="text" id="name" name="name" required placeholder="your name">
         </div>
         <div class="form-group">
-            <input type="text" id="contact" name="contact" required placeholder="ссылка на твой профиль в соцсети">
+            <input type="text" id="contact" name="contact" required placeholder="link to your profile on social media">
         </div>
         <div class="form-group">
-            <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
+            <input type="text" id="social" name="social" required placeholder="phone number to conctact in whatsapp or nik name in telegram ">
         </div>
         <div class="form-note">
-            <p>Нажимая на кнопу, я даю согласие на обработку своих персональных данных</p>
+            <p>By clicking the button, I agree to the processing of my personal data</p>
         </div>
         <div class="button-container">
-            <button type="submit" class="button">Отправить</button>
+            <button type="submit" class="button">Submit</button>
         </div>
         <div class="form-message">
-            <p>Я свяжусь с тобой в течение нескольких часов</p>
+            <p>I'll reach out to you in few hours</p>
         </div>
     </form>
 </div>
