@@ -245,7 +245,7 @@ show_header: false
 
 Подумай об этом на досуге)
 
-{% include consultation_form.html form=site.data[page.lang].message.form %}
+{% include consultation_form.html form=site.data.ru.message.form %}
 
 
 <!-- <div class="consultation-form-container">
