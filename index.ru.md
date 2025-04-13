@@ -258,7 +258,7 @@ show_header: false
             <input type="text" id="social" name="social" required placeholder="номер для связи в whatsapp или ник в telegram">
         </div>
         <div class="form-note">
-            <p>Нажимая на кнопу, я даю согласие на обработку своих персональных данных</p>
+            <p>Нажимая на кнопку, я даю согласие на обработку своих персональных данных</p>
         </div>
         <div class="button-container">
             <button type="submit" class="button">Отправить</button>
