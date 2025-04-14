@@ -393,7 +393,12 @@ Click **Next** if you want to learn how.
 
       const subscriberId = getSubscriberId();
       // const nextPage = this.href; // Store the original link
-      let nextPage = "https://nikpolonsky.github.io/en"; // Base URL
+      // let nextPage = "https://nikpolonsky.github.io/en"; // Base URL
+      const currentLang = "{{ page.lang | default: 'ua' }}"; // fallback to 'ua' if undefined
+
+      // Base URL that adjusts based on language
+      let nextPage = `https://nikpolonsky.github.io/${currentLang}`;
+
       if (subscriberId) {
       	// Get the original link and append subscriber_id dynamically
           // let nextPage = "https://nikpolonsky.github.io/"; // Base URL
