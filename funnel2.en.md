@@ -392,11 +392,11 @@ Click **Next** if you want to learn how.
       event.preventDefault(); // Stop immediate redirection
 
       const subscriberId = getSubscriberId();
-      const nextPage = this.href; // Store the original link
-
+      // const nextPage = this.href; // Store the original link
+      let nextPage = "https://nikpolonsky.github.io"; // Base URL
       if (subscriberId) {
       	// Get the original link and append subscriber_id dynamically
-          let nextPage = "https://nikpolonsky.github.io/"; // Base URL
+          // let nextPage = "https://nikpolonsky.github.io/"; // Base URL
           nextPage += `?subscriber_id=${subscriberId}`; // Add subscriber_id to the URL
 
 

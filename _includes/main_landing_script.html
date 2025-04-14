@@ -33,12 +33,12 @@
                     // alert("Получил! До связи");
                     alert("{{ site.data[page.lang].message.main_script.received | escape }}");
                 } else {
-                    alert("Что-то пошло не так: " + data.error);
+                    alert("{{ site.data[page.lang].message.main_script.warning | escape }}" + data.error);
                 }
             })
             .catch(error => {
-                console.error("Ошибка соединения:", error);
-                alert("Ошибка соединения");
+                console.error("Connection error:", error);
+                alert("Connection error");
             });
         });
     }
