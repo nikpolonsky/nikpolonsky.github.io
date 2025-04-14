@@ -1,0 +1,44 @@
+<script>
+  // Get current language from Jekyll page front matter
+  const currentLang = "{{ page.lang | default: 'ua' }}"; // fallback to 'en' if undefined
+
+  // Base URL that adjusts based on language
+  let nextPage = `https://nikpolonsky.github.io/${currentLang}`;
+
+  // Get subscriber_id from query string
+  function getSubscriberId() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("subscriber_id");
+  }
+
+  document.getElementById('track-click').addEventListener('click', function(event) {
+      event.preventDefault();
+
+      const subscriberId = getSubscriberId();
+      if (subscriberId) {
+          // Append subscriber_id to the URL
+          nextPage += `?subscriber_id=${subscriberId}`;
+
+          // Send click tracking to server
+          fetch("https://manychat-hd-proxy-server-1.onrender.com/track-click", {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json"
+              },
+              body: JSON.stringify({ subscriber_id: subscriberId })
+          })
+          .then(response => response.json())
+          .then(data => {
+              console.log("Tracked Click:", data);
+              window.location.href = nextPage;
+          })
+          .catch(error => {
+              console.error("Tracking error:", error);
+              window.location.href = nextPage;
+          });
+      } else {
+          console.warn("No subscriber ID in URL");
+          window.location.href = nextPage;
+      }
+  });
+</script>
