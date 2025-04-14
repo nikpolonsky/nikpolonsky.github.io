@@ -162,7 +162,7 @@ So, **the star map at the moment of birth becomes the key to understanding how t
 What you see in the center of the wheel is called the **Bodygraph**.
 It’s indeed the map of the body.
 
-![Alt text](/assets/images/funnel2/wheel_empty_marked.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/wheel_empty_marked.png){: .img}
 
 See the numbers in squares and triangles? There are 64. Those are the I Ching hexagrams.
 

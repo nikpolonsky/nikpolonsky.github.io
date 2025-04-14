@@ -142,7 +142,7 @@ show_header: false
 ## Карта тела
 То, что ты видишь в центре этого колеса, называется **бодиграф**. 
 Это и есть "карта тела".
-![Alt text](/assets/images/funnel2/wheel_empty_marked.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/wheel_empty_marked.png){: .img}
 
 Ты уже заметил(а) цифры в квадратах и треугольниках? Их здесь 64. Это те самые гексаграммы И-Цзинь.
 
