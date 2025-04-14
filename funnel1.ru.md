@@ -6,7 +6,7 @@ lang: ru
 show_header: false
 ---
 
-![Alt text](/assets/images/funnel1/funnel1_banner.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_banner.png){: .img}
 
 Все мы любим своих детей. И хотим для них самого лучшего. Но несмотря на усилия родителей, дети не всегда вырастают счастливыми и самодостаточными.
 
@@ -14,7 +14,7 @@ show_header: false
 
 Да-да, даже если ты не задумывался(ась), она у тебя уже есть: совокупность принципов и действий, которыми ты руководствуешься.  
 
-![Alt text](/assets/images/funnel1/funnel1_1.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_1.png){: .img}
 
 #### Эта стратегия охватывает всё:  
 - что и как ребенок ест  
@@ -36,7 +36,7 @@ show_header: false
 Каждый ребёнок рождается уникальной личностью. Со своим набором черт и талантов, своим способом смотреть на мир и с миром взаимодействовать.  
 
 И вот ключевой вопрос:  
-![Alt text](/assets/images/funnel1/funnel1_2.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_2.png){: .img}
 
 Если учитывает, и тебе, и ребенку с ней спокойно и хорошо, то могу только порадоваться. Наверное, мне нечего тебе предложить.
 
@@ -79,7 +79,7 @@ show_header: false
 
 ### Результат
  
-![Alt text](/assets/images/funnel1/funnel1_4.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_4.png){: .img}
 
 На выходе имеем человека, который:  
 - Ищет ответы где угодно, но не в себе.  
@@ -99,7 +99,7 @@ show_header: false
 
 #### 1) Никто кроме тебя не будет вкладываться в развитие природных даров и усиление личности твоего ребенка.
 
-![Alt text](/assets/images/funnel1/funnel1_5.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_5.png){: .img}
 
 - Обществу это не нужно. Системе удобнее штамповать "нормальных", удобных людей, которые не выходят за рамки.
 
