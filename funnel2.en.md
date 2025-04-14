@@ -6,7 +6,7 @@ lang: en
 show_header: false
 ---
 
-![Alt text](/assets/images/funnel2/funnel2_banner.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_banner.png){: .img}
 
 I'm glad you're reading the second—and most important—article in this series.
 Here, I’ll tell you about a tool that helps you deeply understand how any human being is wired.
@@ -27,9 +27,9 @@ There are many ways to talk about it, but I want to show you its beauty and dept
 
 So I’ll start with how the Chinese Book of Changes, binary code, astrology, and human DNA are connected.
 How a synthesis of ancient wisdom and scientific understanding of the genome becomes a unique model of consciousness.
-And how to translate that into everyday advice on the level of “brush your teeth”—tips that can completely shift how you see your child and improve your parenting experience and family atmosphere.
+And how to translate that into everyday advice on the level of “brush your teeth”—tips that can completely transform how you see your child and improve your parenting experience and family atmosphere.
 
-![Alt text](/assets/images/funnel2/funnel2_1.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_1.png){: .img}
 
 ## But first—a heartfelt confession
 The next 8 paragraphs may **seem a bit boring**.
@@ -48,17 +48,17 @@ All living beings—from goldfish to humans—use just 22 codons to encode infor
 The names of these codons sound very pharmaceutical, and you’ve probably heard some: Alanine (Ala), Leucine (Leu), Tyrosine (Tyr), etc.
 Each codon is a trio of nucleotides, and there are only four types of those.
 
-![Alt text](/assets/images/funnel2/funnel2_1_1.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_1_1.png){: .img}
 
 The codon **Ala (Alanine)** = Guanine + Cytosine + Uracil, or **GCU**
 
 So a fragment of genetic code might look like this:
 
-![Alt text](/assets/images/funnel2/funnel2_1_2.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_1_2.png){: .img}
 
 What if we represent each nucleotide as binary?
 
-![Alt text](/assets/images/funnel2/funnel2_1_3.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_1_3.png){: .img}
 
 
 Then, **Ala (Alanine)** = Guanine + Cytosine + Uracil = G + C + U = **01 + 11 + 00**
@@ -151,7 +151,7 @@ The sky is divided into 64 sectors, each corresponding to an I Ching hexagram.
 Just imagine: a neutrino coming from the direction of hexagram 1, where Mars was located, would leave a different imprint than one from hexagram 32, where Saturn was.
 
 ### Cosmic Programming
-![Alt text](/assets/images/funnel2/funnel2_1_8.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_1_8.png){: .img}
 Each hexagram (and planet) has its own symbolic meaning.
 These meanings reflect in the “information” carried by neutrinos.
 
@@ -209,7 +209,7 @@ Where your child feels valued for **being themselves**, rather than meeting exte
 The Solar Plexus Center is the place where emotions are born and live.
 If this center is defined, the person has an internal emotional rhythm: their mood naturally fluctuates, regardless of external circumstances.
 
-![Alt text](/assets/images/funnel2/funnel2_2_1.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_2_1.png){: .img}
 
 When the center is open, it functions like an antenna, picking up emotions from others.
 A person with this center can feel the joy, sorrow, or anxiety of people around them even more intensely than the people themselves.
@@ -247,7 +247,7 @@ And that’s a golden moment for you—a real-life example you can gently refer 
 Or take the **25–51 Channel of Initiation**, connecting the Ego and Identity Centers.
 People with this channel want to be the best at everything.
 
-![Alt text](/assets/images/funnel2/funnel2_2_2.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_2_2.png){: .img}
 
 For a child, one of the ways they know they’re “the best” is through their parents’ attention.
 A child with this channel will crave massive, intense attention.
@@ -260,7 +260,7 @@ Or the **38th Gate – the Gate of Opposition**
 
 Located in the Root Center, which deals with adrenaline pressure.
 
-![Alt text](/assets/images/funnel2/funnel2_2_3.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_2_3.png){: .img}
 
 A child with this activation simply cannot back down when pressured.
 The more you push, the harder they’ll push back.
@@ -280,7 +280,7 @@ When it comes to practical benefits, there are three key ones:
 
 **Confidence in your parenting strategy**
 
-![Alt text](/assets/images/funnel2/funnel2_2_4.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_2_4.png){: .img}
 
 That peaceful feeling when you know what you’re doing and why.
 When you stop comparing your child to others.
@@ -299,7 +299,7 @@ And that’s okay.
 
 **Joy in interacting with your child**
 
-![Alt text](/assets/images/funnel2/funnel2_2_5.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_2_5.png){: .img}
 
 You don’t need to just “take this on faith.” Human Design is an empirical system.
 Its validity can only be tested through personal experience.
@@ -365,7 +365,7 @@ And it’ll still take a ton of time.
 Because reading a BodyGraph isn’t just theory—it’s personal experience and lived practice.
 
 ### So what should you do?
-![Alt text](/assets/images/funnel2/funnel2_4.png){: .img}
+![Alt text](/assets/images/funnel2/{{ page.lang }}/funnel2_4.png){: .img}
 You don’t need to learn all the details yourself.
 I’ve already done that part.
 Human Design has become my life’s work.
