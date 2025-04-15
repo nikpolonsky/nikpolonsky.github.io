@@ -123,7 +123,7 @@ You decide if they’re good news or bad.
 
 #### 1) No one but you will invest in nurturing your child’s natural gifts and personality.
 
-![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_5.png){: .img}
+![Alt text](/assets/images/funnel1/funnel1_5.png){: .img}
 
 - Society doesn’t care. Systems prefer "normal," manageable people who stay within the lines.
 
@@ -144,7 +144,7 @@ My job is to help you help them deliver it.
 
 ### And yes, my logic checks out
 
-![Alt text](/assets/images/funnel1/funnel1_6.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_6.png){: .img}
 
 - I’m fully aware that:
 - I’ve been criticizing generic parenting strategies

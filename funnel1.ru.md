@@ -99,7 +99,7 @@ show_header: false
 
 #### 1) Никто кроме тебя не будет вкладываться в развитие природных даров и усиление личности твоего ребенка.
 
-![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_5.png){: .img}
+![Alt text](/assets/images/funnel1/funnel1_5.png){: .img}
 
 - Обществу это не нужно. Системе удобнее штамповать "нормальных", удобных людей, которые не выходят за рамки.
 
@@ -120,7 +120,7 @@ show_header: false
 
 ### И да, у меня всё в порядке с логикой
 
-![Alt text](/assets/images/funnel1/funnel1_6.png){: .img}
+![Alt text](/assets/images/funnel1/{{ page.lang }}/funnel1_6.png){: .img}
 
 Я отдаю себе полный отчёт в том, что:
 
