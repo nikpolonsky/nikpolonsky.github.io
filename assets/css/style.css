@@ -115,11 +115,30 @@ body {
     margin-top: 20px;
 }
 
-/* Текст о связи после отправки */
 .form-message {
     text-align: center;
     font-size: 14px;
     color: #333;
     margin-top: 20px;
+}
+
+
+.hidden { display: none; }
+
+.note { 
+    font-size: 0.9em; 
+    color: #444; 
+    margin-left: 6px; 
+    font-style: italic;
+}
+
+.note-toggle { 
+    cursor: pointer; 
+    color: #888; 
+    text-decoration: none;
+}
+
+.note-toggle:hover { 
+    text-decoration: underline; 
 }
 
