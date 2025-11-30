@@ -7,7 +7,7 @@ show_header: false
 ---
 
 <h2 style="text-align:center;"> Я Папа Я</h2>
-<div style="text-align:rigth; font-style: italic;">
+<div style="text-align:right; font-style: italic;">
 Ты здесь,<br>
 Так близко – рядом со мной,<br>
 Мы будто стали одно – <br>
@@ -17,7 +17,7 @@ show_header: false
 И если Бог есть любовь,<br>
 То я вернусь за тобой <br>
 Сквозь самую чёрную ночь<br>
-[\(c\)Немного Нервно](https://www.youtube.com/watch?v=OsILyvojXRE)<br>
+<a href="https://www.youtube.com/watch?v=OsILyvojXRE">(c) Немного Нервно</a><br>
 </div>
 <br>
 <br>
