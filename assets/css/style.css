@@ -125,20 +125,18 @@ body {
 
 .hidden { display: none; }
 
-.note { 
-    font-size: 0.9em; 
-    color: #444; 
-    margin-left: 6px; 
+.note {
+    font-size: 0.9em;
+    color: #555;
     font-style: italic;
+    margin-left: 6px;
 }
 
-.note-toggle { 
-    cursor: pointer; 
-    color: #888; 
+.note-toggle {
+    cursor: pointer;
+    color: #888;
     text-decoration: none;
 }
-
-.note-toggle:hover { 
-    text-decoration: underline; 
+.note-toggle:hover {
+    text-decoration: underline;
 }
-
