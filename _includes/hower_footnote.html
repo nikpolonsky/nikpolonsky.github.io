@@ -1,0 +1,18 @@
+<script>
+document.addEventListener("click", e => {
+  if (!e.target.classList.contains("note-toggle")) return;
+
+  const note = e.target.nextElementSibling;
+  const allNotes = document.querySelectorAll(".note");
+
+  // If the clicked one is already open → close it
+  if (!note.classList.contains("hidden")) {
+    note.classList.add("hidden");
+    return;
+  }
+
+  // Otherwise close all notes, then open this one
+  allNotes.forEach(n => n.classList.add("hidden"));
+  note.classList.remove("hidden");
+});
+</script>
