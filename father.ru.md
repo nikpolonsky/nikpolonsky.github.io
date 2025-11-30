@@ -17,7 +17,7 @@ show_header: false
 И если Бог есть любовь,<br>
 То я вернусь за тобой <br>
 Сквозь самую чёрную ночь<br>
-(с)[Немного Нервно](https://www.youtube.com/watch?v=OsILyvojXRE)<br>
+[\(c\)Немного Нервно](https://www.youtube.com/watch?v=OsILyvojXRE)<br>
 </div>
 <br>
 <br>
@@ -229,8 +229,8 @@ show_header: false
 
 Где можно предаться воспоминаниям о том, что было, и о том, чего не было.
 
+![Alt text](/assets/images/papa.jpg){: .img}
 
-![Alt text](/assets/images/{{ page.lang }}/papa.jpg){: .img}
 
 ----
 
