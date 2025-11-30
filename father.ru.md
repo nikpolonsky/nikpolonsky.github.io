@@ -7,7 +7,7 @@ show_header: false
 ---
 
 <h2 style="text-align:center;"> Я Папа Я</h2>
-<div style="text-align:left; font-style: italic;">
+<div style="text-align:rigth; font-style: italic;">
 Ты здесь,<br>
 Так близко – рядом со мной,<br>
 Мы будто стали одно – <br>
@@ -17,7 +17,7 @@ show_header: false
 И если Бог есть любовь,<br>
 То я вернусь за тобой <br>
 Сквозь самую чёрную ночь<br>
-(с) Немного Нервно
+(с)[Немного Нервно](https://www.youtube.com/watch?v=OsILyvojXRE)<br>
 </div>
 <br>
 <br>
@@ -222,6 +222,7 @@ show_header: false
 </div>
 
 ----
+
 Не люблю могилы и не знаю, где похоронили тебя, а даже если бы и знал, то не приехал.
 
 Но я хочу, чтобы у нас с тобой было своё место.
@@ -229,8 +230,7 @@ show_header: false
 Где можно предаться воспоминаниям о том, что было, и о том, чего не было.
 
 
-![Alt text](/assets/images/papa.jpg){: .img}
-
+![Alt text](/assets/images/{{ page.lang }}/papa.jpg){: .img}
 
 ----
 
